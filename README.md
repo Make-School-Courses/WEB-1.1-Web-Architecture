@@ -1,23 +1,18 @@
 # Title
 
-### [Reveal Slide Instructions](./Reveal/README.md) <-- Remove this before updating your repo
-
 ## Course Description
 
-Describe your course here. A short elevator pitch for the course, use positive, friendly language to get students excited to take your course. Use of I/you/we should be used over instructor/students.
+This course covers the three major patterns or architectures that make the web work; REST, Resources, and MVC. Students will learn language independent patterns that are repeated across many common servers. Other key concepts covered include server-side templating, automated testing, and the request-response cycle.
 
-### Why you should know this (optional)
+### Why you should know this
 
 Explain why students should care to learn the material presented in this class.
 
-## Prerequisites:  
+## Prerequisites:
 
-- [Prerequisite 1]()
-- [Prerequisite 2]()
+None
 
 ## Learning Outcomes
-
-### **[INSTRUCTOR NOTE: PLEASE LIST (3-5) LEARNING OUTCOMES]**
 
 By the end of the course, you will be able to ...
 
@@ -29,67 +24,26 @@ By the end of the course, you will be able to ...
 
 ## Schedule
 
----
-
-**[INSTRUCTOR NOTE: PLEASE REMOVE THIS BEFORE JUNE 1]**
-
-If you teach **M/W/F** or **Tu/Th**, please pick from a template below and delete the other one
-
----
-
-**M/W Template [PLEASE REMOVE THIS HEADER BEFORE JUNE 1]**
-
-**Course Dates:** Monday, June 1 – Friday, July 17, 2020 (7 weeks)
-
-**Class Times:** Monday, Wednesday, and Friday at 9:30–11:20am (20 class sessions)
-
-| Class |          Date          |                 Topics                  |
-|:-----:|:----------------------:|:---------------------------------------:|
-|  1 |  Mon, June 1               | [Lesson 1] |
-|  2 |  Wed, June 3               | [Lesson 2] |
-|  3 |  Fri, June 5               | [Lesson 3] |
-|  4 |  Mon, June 8               | [Lesson 3] |
-|  5 |  Wed, June 10               | [Lesson 4] |
-|  6 |  Fri, June 12               | [Lesson 5] |
-|  7 |  Mon, June 15               | [Lesson 5] |
-|  8 |  Wed, June 17              | [Lesson 6] |
-|  9 |  Fri, June 19              | [Lesson 7] |
-| 10 |  Mon, June 22              | [Lesson 7] |
-| 11 |  Wed, June 24              | [Lesson 8] |
-| 12 |  Fri, June 26              | [Lesson 9] |
-| 13 |  Mon, June 29              | [Lesson 9] |
-| 14 |  Wed, July 1              | [Lesson 10]|  
-| -  |  Fri, July 3              | **NO CLASS - INDEPENDENCE DAY OBSERVED**|
-| 15 |  Mon, July 6              | [Lesson 11]|
-| 16 |  Wed, July 8                 | [Lesson 12] |
-| 17 |  Fri, July 10                  | [Lesson 13] |
-| 18 |  Mon, July 13                  | [Lesson 13] |
-| 19 |  Wed, July 15                 | [Lesson 13] |
-| 20 |  Fri, July 17                 | Final Exam/Presentations |
-
-
-**Tu/Th Template [PLEASE REMOVE THIS HEADER BEFORE JUNE 1]**
-
 **Course Dates:** Tuesday, June 2 – Thursday, July 16, 2020 (7 weeks)
 
 **Class Times:** Tuesday and Thursday at 2:30–5:20pm (14 class sessions)
 
-| Class |          Date          |                 Topics                  |
-|:-----:|:----------------------:|:---------------------------------------:|
-|  1 |  Tue, June 2                  | [Lesson 1] |
-|  2 |  Thu, June 4                 | [Lesson 2] |
-|  3 |  Tue, June 9                 | [Lesson 3] |
-|  4 |  Thu, June 11               | [Lesson 4] |
-|  5 |  Tue, June 16                 | [Lesson 5] |
-|  6 |  Thu, June 18                 | [Lesson 6] |
-|  7 |  Tue, June 23                | [Lesson 7] |
-|  8 |  Thu, June 25                | [Lesson 8] |
-|  9 |  Tue, June 30                | [Lesson 9] |
-| 10 |  Thu, July 2                 | [Lesson 10]|  
-| 11 |  Tue, July 7               | [Lesson 11]|
-| 12 |  Thu, July 9              | [Lesson 12]|
-| 13 |  Tue, July 14                  | [Lesson 13]|
-| 14 |  Thu, July 16                  | Final Exam/Presentations |
+| Class | Date | Topics | Assignment Due | Assessment |
+|:-----:|:----:|:------:| :------------: | :--------: |
+|  1 |  Wed, Aug 19  | [Flask Routes & Request/Response](Lessons/01-Request-Response) |
+|  2 |  Mon, Aug 24  | [Flask Routes & Request/Response Part 2](Lessons/02-Request-Response-2) |
+|  3 |  Wed, Aug 26  | [Flask Templating]() | [Homework 1: Request/Response](Assignments/01-Request-Response) |
+|  4 |  Mon, Aug 31  | [Flask Templating LAB]() |
+|  5 |  Wed, Sept 2  | [Forms in Flask]() | [Homework 2: Templating]() |
+|  6 |  Mon, Sept 7  | [Forms in Flask LAB]() |
+|  7 |  Wed, Sept 9  | [APIs & JSON]() | [Homework 3: Forms]() |
+|  8 |  Mon, Sept 14 | [APIs & JSON LAB]() |
+|  9 |  Wed, Sept 16 | [Databases]() | [Homework 4: APIs]() |
+| 10 |  Mon, Sept 21 | [Resource Associations]()|  
+| 11 |  Wed, Sept 23 | [Testing 1]() | [Homework 5: Databases]() |
+| 12 |  Mon, Sept 28 | [Testing 2]() |
+| 13 |  Wed, Sept 30 | Review / Lab | [Homework 6: Testing]() |
+| 14 |  Mon, Oct 5   | Final Exam/Presentations |
 
 
 [Lesson 1]: Lessons/Lesson1.md
@@ -106,17 +60,6 @@ If you teach **M/W/F** or **Tu/Th**, please pick from a template below and delet
 [Lesson 12]: Lessons/Lesson12.md
 [Lesson 13]: Lessons/Lesson13.md
 [Lesson 14]: Lessons/Lesson14.md
-
-## Assignment Schedule 
-
-**[INSTRUCTOR NOTE] REPLACE THE BELOW WITH LINKS TO YOUR ASSIGNMENTS, CORRECT DATES, AND SUBMISSION FORM**
-
-|                        Assignment                         | Date Assigned |   Due Date   |            Submission Form           |
-|:---------------------------------------------------------:|:-------------:|:------------:|:------------------------------------:|
-| [Link to Assignment](makeschool.com)                      |  Tue, Oct 15  |  Tue, Oct 22 | [Submit Assignment](makeschool.com)  |
-| [Link to Assignment](makeschool.com)                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-| [Link to Assignment](makeschool.com)                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-| [Link to Assignment](makeschool.com)                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
 
 ## Class Assignments
 
