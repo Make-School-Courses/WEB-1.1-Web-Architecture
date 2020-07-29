@@ -8,34 +8,28 @@ Scoring for this project is as follows:
 
 | Criteria | Possible |
 | :------: | :------: |
-| Hello World | `5` |
 | Favorite Animal | `5` |
-| User's Favorite Animal | `5` |
-| User's Favorite Dessert | `5` |
-| Multiply 2 Numbers | `5` |
-| Say N Times | `5` |
-| Reverse a String | `5` |
-| Strange Caps| `5` |
-| Dice Game | `10` |
-| Discussion Questions | `10` |
-| **TOTAL** | **`60`** |
+| User's Favorite Dessert | `10` |
+| Mad Libs | `10` |
+| Multiply 2 Numbers | `10` |
+| **TOTAL** | **`35`** |
 
 ## Getting Started
 
 In your course projects directory, create a folder for this project, and call it something like `Homework-1-Request-Response`. (In general, it's a good idea _not_ to use spaces in folder names, which is why we use dashes instead!).
 
-In a terminal window, navigate to your newly created folder and create a new file called `app.py` by running:
+In a terminal window, navigate to your newly created folder and create a new file called `app.py` by running the following command (hint: remember **NOT** to type the `$`):
 
 ```
-touch app.py
+$ touch app.py
 ```
 
 Set up a new Git repository in your folder by running:
 
 ```
-git init
-git add .
-git commit -m'Initial commit'
+$ git init
+$ git add .
+$ git commit -m'Initial commit'
 ```
 
 Go to [GitHub.com] and create a new repository for your project (make sure the box for "Initialize with a README" is **NOT** checked). Then, run the command:
@@ -47,12 +41,12 @@ $ git remote add origin git@github.com:YOUR_USERNAME/YOUR_REPO_NAME.git
 Finally, make sure you have installed Flask:
 
 ```
-pip3 install flask
+$ pip3 install flask
 ```
 
-## Instructions
+## Instructions - Core Challenges
 
-### Hello, World! _(5 points)_
+### Hello, World! _(Tutorial)_
 
 Programmers often refer to a "Hello World" project as a _proof-of-concept_ of a new skill (or language, framework, etc) they are learning. It is a project that is so simple, all it does is say hello to the user! Writing "Hello World" projects is a very useful first step in learning to code. Think of it like buying a pair of running shoes, putting them on your feet, going outside, and taking your first step!
 
@@ -93,7 +87,7 @@ if __name__ == '__main__':
 Now we're ready to run the code! Open up your terminal, in your project folder, and type the following:
 
 ```
-python3 app.py
+$ python3 app.py
 ```
 
 You should see something like this in your Terminal output:
@@ -118,7 +112,7 @@ For my website, I want to show off my favorite animal. **Create a route** for th
 
 Now, try writing another route to show off _your_ favorite animal. Make sure to test your app in the browser to make sure it works!
 
-## Your User's Favorite Animal _(5 points)_
+## Your User's Favorite Animal _(Tutorial)_
 
 Writing a website isn't just about showing off your own interests - it's also about keeping your users happy! Let's make a route where the _user_ can type in their favorite animal - regardless of what it might be - and get a response.
 
@@ -142,13 +136,17 @@ Now, try it out! Try typing `localhost:5000/animal/zebra` into your browser and 
 Wow, zebra is my favorite animal, too!
 ```
 
-### Your User's Favorite Dessert _(5 points)_
+### Your User's Favorite Dessert _(10 points)_
 
 Now that we've gotten the hang of route variables, let's try another. Write a route `favorite_dessert` for the URL `/dessert/<users_dessert>`. If I visit the URL `/dessert/donuts`, I should see the text: `How did you know I liked donuts?`
 
-### Multiply 2 Numbers _(5 points)_
+### Mad Libs _(10 Points)_
 
-Next, let's try a more challenging one by using several route variables in one. Write a route `multiply` that takes in 2 numbers, multiplies them, and displays the results. It should use the URL `/multiply/<number1>/<number2>`, then take in `number1` and `number2` as parameters.
+Write a route for the URL `/madlibs/<adjective>/<noun>` which takes in 2 strings and displays a funny (but work-appropriate) story using them! 
+
+### Multiply 2 Numbers _(10 points)_
+
+Next, let's try a more challenging one. Write a route `multiply` that takes in 2 numbers, multiplies them, and displays the results. It should use the URL `/multiply/<number1>/<number2>`, then take in `number1` and `number2` as parameters.
 
 Write the rest of the route function, as follows:
 - If I go to the URL `/multiply/5/7`, I should see the result: `5 times 7 is 35`.
@@ -158,7 +156,13 @@ Write the rest of the route function, as follows:
 
 **HINT 2**: All route variables are of type `string`, which means you'll need to cast them as integers in order to do the multiplication. You can do so using the built-in [int()](https://www.freecodecamp.org/news/how-to-convert-strings-into-integers-in-python/) method.
 
-### Say N Times _(5 points)_
+## Stretch Challenges
+
+The following exercises are **stretch challenges**, which means that while they aren't strictly required for this assignment, they are _highly encouraged_! Please do not attempt these until you've finished the core challenges.
+
+If you have, then carry on!
+
+### Say N Times
 
 Write a route, `sayntimes`, that will repeat a string a given number of times. It should use the URL `/sayntimes/<word>/<n>`. For example:
 
@@ -170,7 +174,7 @@ Write a route, `sayntimes`, that will repeat a string a given number of times. I
 
 Try out your route in the browser! What happens when you use a very large number (e.g. `1000000`)?
 
-### Reverse a String _(5 points)_
+### Reverse a String
 
 Write a route, `reverse`, that takes in a string and outputs the string backwards, i.e. with the characters in reverse order:
 
@@ -178,7 +182,7 @@ Write a route, `reverse`, that takes in a string and outputs the string backward
 
 **HINT**: Use a for loop to loop over each character in the string, starting at the end; add each one to a result string as you go.
 
-### Strange Caps _(5 points)_
+### Strange Caps
 
 Write a route `strangecaps` that will output a given word in "strange caps", that is, alternating lowercase and uppercase letters:
 
@@ -189,7 +193,7 @@ Write a route `strangecaps` that will output a given word in "strange caps", tha
 
 **HINT 2**: You can use the string methods [upper()](https://www.w3schools.com/python/ref_string_upper.asp) and [lower()](https://www.w3schools.com/python/ref_string_lower.asp) to transform a given string into all uppercase or lowercase letters. You'll want to call these methods on just one letter at a time.
 
-### Dice Game _(10 points)_
+### Dice Game
 
 Write a route `dicegame` that chooses a random number from 1 to 6. If the user rolls a 6, they win the game; otherwise, they lose.
 
@@ -198,14 +202,6 @@ Write a route `dicegame` that chooses a random number from 1 to 6. If the user r
 - If I go to the URL `/dicegame` again, I should see a result like: `You rolled a 5. You lost!`
 
 **HINT**: You can use the Python `random` library method [randint()](https://www.w3schools.com/python/ref_random_randint.asp) to generate a random number from 1 to 6.
-
-## Discussion Questions _(10 points)_
-
-Create a file in your project directory called `README.md`. In it, answer the following discussion questions:
-
-1. When I go to the URL of a Flask application, what happens? Describe in your own words.
-
-1. Think of a popular website that serves one purpose, such as [IMDB.com](https://imdb.com) or [Wikipedia](https://wikipedia.com). What features of the website would you be able to build, using only what you know now? What features would you not be able to build yet? What skills do you still need?
 
 ## Submission
 
