@@ -1,7 +1,7 @@
 - **[Syllabus](README.md)**
 - **Lessons**
-  - [Lesson 1](Lessons/Lesson1.md)
-  - [Lesson 2](Lessons/Lesson2.md)
+  - [Flask Routes & Request/Response](Lessons/01-Request-Response)
+  - [Route Variables](Lessons/02-Request-Response-2)
   - [Lesson 3](Lessons/Lesson1.md)
   - [Lesson 4](Lessons/Lesson1.md)
   - [Lesson 5](Lessons/Lesson1.md)
@@ -12,6 +12,13 @@
   - [Lesson 10](Lessons/Lesson1.md)
   - [Lesson 11](Lessons/Lesson1.md)
   - [Lesson 12](Lessons/Lesson1.md)
-  - Final Class (Presentations, Demos, etc)
-  - Final Exam/Presentations
-- **[Project](Assignments/Sample_Project.md)**
+
+- **Homework Assignments**
+  - [Homework 1: Request/Response](Assignments/01-Request-Response)
+  - [Homework 2: Forms](Assignments/02-Forms.md)
+  - [Homework 3: Templates](Assignments/03-Templates.md)
+  - [Homework 4: APIs](Assignments/04-APIs.md)
+  - [Homework 5: Databases](Assignments/05-Databases.md)
+  - [Homework 6: Testing](Assignments/06-Testing.md)
+
+- **Quizzes**

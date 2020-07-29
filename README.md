@@ -31,35 +31,20 @@ By the end of the course, you will be able to ...
 | Class | Date | Topics | Assignment Due | Assessment |
 |:-----:|:----:|:------:| :------------: | :--------: |
 |  1 |  Wed, Aug 19  | [Flask Routes & Request/Response](Lessons/01-Request-Response) |
-|  2 |  Mon, Aug 24  | [Flask Routes & Request/Response Part 2](Lessons/02-Request-Response-2) |
-|  3 |  Wed, Aug 26  | [Flask Templating]() | [Homework 1: Request/Response](Assignments/01-Request-Response) |
-|  4 |  Mon, Aug 31  | [Flask Templating LAB]() |
-|  5 |  Wed, Sept 2  | [Forms in Flask]() | [Homework 2: Templating]() |
-|  6 |  Mon, Sept 7  | [Forms in Flask LAB]() |
-|  7 |  Wed, Sept 9  | [APIs & JSON]() | [Homework 3: Forms]() |
+|  2 |  Mon, Aug 24  | [Route Variables](Lessons/02-Request-Response-2) |
+|  3 |  Wed, Aug 26  | [Forms]() | [Homework 1: Request/Response](Assignments/01-Request-Response) |
+|  4 |  Mon, Aug 31  | [More Forms]() |
+|  5 |  Wed, Sept 2  | [Templating Variables & Control Structures]() | [Homework 2: Forms](Assignments/02-Forms.md) |
+|  6 |  Mon, Sept 7  | [Template Inheritance]() |
+|  7 |  Wed, Sept 9  | [APIs & JSON]() | [Homework 3: Templates](Assignments/03-Templates.md) |
 |  8 |  Mon, Sept 14 | [APIs & JSON LAB]() |
-|  9 |  Wed, Sept 16 | [Databases]() | [Homework 4: APIs]() |
+|  9 |  Wed, Sept 16 | [Databases]() | [Homework 4: APIs](Assignments/04-APIs.md) |
 | 10 |  Mon, Sept 21 | [Resource Associations]()|  
-| 11 |  Wed, Sept 23 | [Testing 1]() | [Homework 5: Databases]() |
+| 11 |  Wed, Sept 23 | [Testing 1]() | [Homework 5: Databases](Assignments/05-Databases.md) |
 | 12 |  Mon, Sept 28 | [Testing 2]() |
-| 13 |  Wed, Sept 30 | Review / Lab | [Homework 6: Testing]() |
+| 13 |  Wed, Sept 30 | Review / Lab | [Homework 6: Testing](Assignments/06-Testing.md) |
 | 14 |  Mon, Oct 5   | Final Exam/Presentations |
 
-
-[Lesson 1]: Lessons/Lesson1.md
-[Lesson 2]: Lessons/Lesson2.md
-[Lesson 3]: Lessons/Lesson3.md
-[Lesson 4]: Lessons/Lesson4.md
-[Lesson 5]: Lessons/Lesson5.md
-[Lesson 6]: Lessons/Lesson6.md
-[Lesson 7]: Lessons/Lesson7.md
-[Lesson 8]: Lessons/Lesson8.md
-[Lesson 9]: Lessons/Lesson9.md
-[Lesson 10]: Lessons/Lesson10.md
-[Lesson 11]: Lessons/Lesson11.md
-[Lesson 12]: Lessons/Lesson12.md
-[Lesson 13]: Lessons/Lesson13.md
-[Lesson 14]: Lessons/Lesson14.md
 
 ## Class Assignments
 
