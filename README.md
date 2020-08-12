@@ -1,4 +1,4 @@
-# Title
+# WEB 1.1 (Web Architecture)
 
 ## Course Description
 
@@ -10,17 +10,17 @@ Explain why students should care to learn the material presented in this class.
 
 ## Prerequisites:
 
-None
+1. WEB 1.0 (Web Foundations)
 
 ## Learning Outcomes
 
 By the end of the course, you will be able to ...
 
-1. Identify & Describe
-1. Explain
-1. Compare & Contrast
-1. Design & Implement
-1. Practice
+1. Use Flask routes & route variables to create web pages with dynamic content.
+1. Use forms & Jinja2 templates to take user input and display a result.
+1. Make API calls & use/analyze the JSON data to show a result to the user.
+1. Read and write to the MongoDB database using the PyMongo Object Document Mapper (ODM).
+1. Implement Flask route tests to verify the correctness of routes.
 
 ## Schedule
 
@@ -34,16 +34,17 @@ By the end of the course, you will be able to ...
 |  2 |  Mon, Aug 24  | [Route Variables](https://docs.google.com/presentation/d/1pkhz8gzwH5u26yKNzEPUYJ4b8gaGEAGXHoec8Ujwk80/edit?usp=sharing) |
 |  3 |  Wed, Aug 26  | [Forms](https://docs.google.com/presentation/d/1PFpGhb_UxSdVXXhw6LRtudJQpCRO67jf9gULujAPac0/edit?usp=sharing) | [Homework 1: Request/Response](Assignments/01-Request-Response) |
 |  4 |  Mon, Aug 31  | [More Forms](https://docs.google.com/presentation/d/1jL0NvJ7iewi_veSPgFNSK-s7Q49TD-ki6bMwyPN0ztk/edit?usp=sharing) |
-|  5 |  Wed, Sept 2  | [Templating Variables & Control Structures](https://docs.google.com/presentation/d/1InB_peM6oVlP8rQGJTHiYLmBAX1kXHtT5qCrZfMOpNY/edit?usp=sharing) | [Homework 2: Forms](Assignments/02-Forms.md) |
-|  6 |  Mon, Sept 7  | [Template Inheritance](https://docs.google.com/presentation/d/1yV9remVNvK7lyGGhzYluZqWumXmW12fdwJ606rlbK0M/edit?usp=sharing) |
-|  7 |  Wed, Sept 9  | [APIs](https://docs.google.com/presentation/d/1l-ZkjvXrNc_HxE9QNSfDGj1PwaWLWVA4XZ1cibpGzow/edit?usp=sharing) | [Homework 3: Templates](Assignments/03-Templates.md) | Midterm Assessment |
-|  8 |  Mon, Sept 14 | [APIs & JSON](https://docs.google.com/presentation/d/1qQY5vflLAvrQpuqFqJobj5T6-oT81a0A7ekIIRBaV7g/edit?usp=sharing) |
-|  9 |  Wed, Sept 16 | [Databases](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing) | [Homework 4: APIs](Assignments/04-APIs.md) |
-| 10 |  Mon, Sept 21 | [Resource Associations](https://docs.google.com/presentation/d/1bLgsudaot9xIQdfYEUvMl8fwCL2ABEfGuotFnrxM_H4/edit?usp=sharing)|  
-| 11 |  Wed, Sept 23 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) | [Homework 5: Databases](Assignments/05-Databases.md) |
-| 12 |  Mon, Sept 28 | [Testing 2]() |
-| 13 |  Wed, Sept 30 | Deployment & Lab | [Homework 6: Testing](Assignments/06-Testing.md) |
-| 14 |  Mon, Oct 5   | Final Assessment |
+|  5 |  Wed, Sep 2  | [Templating Variables & Control Structures](https://docs.google.com/presentation/d/1InB_peM6oVlP8rQGJTHiYLmBAX1kXHtT5qCrZfMOpNY/edit?usp=sharing) | [Homework 2: Forms](Assignments/02-Forms.md) |
+|  - |  Mon, Sep 7  | **NO CLASS** - Labor Day |
+|  6 |  Wed, Sep 9  | [Template Inheritance](https://docs.google.com/presentation/d/1yV9remVNvK7lyGGhzYluZqWumXmW12fdwJ606rlbK0M/edit?usp=sharing) |
+|  7 |  Mon, Sep 14  | [APIs](https://docs.google.com/presentation/d/1l-ZkjvXrNc_HxE9QNSfDGj1PwaWLWVA4XZ1cibpGzow/edit?usp=sharing) | [Homework 3: Templates](Assignments/03-Templates.md) | Midterm Assessment |
+|  8 |  Wed, Sep 16 | [APIs & JSON](https://docs.google.com/presentation/d/1qQY5vflLAvrQpuqFqJobj5T6-oT81a0A7ekIIRBaV7g/edit?usp=sharing) |
+|  9 |  Mon, Sep 21 | [Databases](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing) | [Homework 4: APIs](Assignments/04-APIs.md) |
+| 10 |  Wed, Sep 23 | [Resource Associations](https://docs.google.com/presentation/d/1bLgsudaot9xIQdfYEUvMl8fwCL2ABEfGuotFnrxM_H4/edit?usp=sharing)|  
+| 11 |  Mon, Sep 28 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) | [Homework 5: Databases](Assignments/05-Databases.md) |
+| 12 |  Wed, Sep 30 | [Testing 2]() |
+| 13 |  Mon, Oct 5 | Deployment & Lab | [Homework 6: Testing](Assignments/06-Testing.md) |
+| 14 |  Wed, Oct 7   | Lab | Final Assessment |
 
 
 ## Evaluation
