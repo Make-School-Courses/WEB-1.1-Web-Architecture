@@ -1,17 +1,17 @@
 - **[Syllabus](README.md)**
 - **Lessons**
-  - [Flask Routes & Request/Response](Lessons/01-Request-Response)
-  - [Route Variables](Lessons/02-Request-Response-2)
-  - [Lesson 3](Lessons/Lesson1.md)
-  - [Lesson 4](Lessons/Lesson1.md)
-  - [Lesson 5](Lessons/Lesson1.md)
-  - [Lesson 6](Lessons/Lesson1.md)
-  - [Lesson 7](Lessons/Lesson1.md)
-  - [Lesson 8](Lessons/Lesson1.md)
-  - [Lesson 9](Lessons/Lesson1.md)
-  - [Lesson 10](Lessons/Lesson1.md)
-  - [Lesson 11](Lessons/Lesson1.md)
-  - [Lesson 12](Lessons/Lesson1.md)
+  - [Flask Routes & Request/Response](https://docs.google.com/presentation/d/16js-BaSAxfHEYtxYFE6eT_sVcxrEWDRmgcWfGpeMAds/edit?usp=sharing)
+  - [Route Variables](https://docs.google.com/presentation/d/1pkhz8gzwH5u26yKNzEPUYJ4b8gaGEAGXHoec8Ujwk80/edit?usp=sharing)
+  - [Forms](https://docs.google.com/presentation/d/1PFpGhb_UxSdVXXhw6LRtudJQpCRO67jf9gULujAPac0/edit?usp=sharing)
+  - [More Forms](https://docs.google.com/presentation/d/1jL0NvJ7iewi_veSPgFNSK-s7Q49TD-ki6bMwyPN0ztk/edit?usp=sharing)
+  - [Templating Variables & Control Structures](https://docs.google.com/presentation/d/1InB_peM6oVlP8rQGJTHiYLmBAX1kXHtT5qCrZfMOpNY/edit?usp=sharing)
+  - [Template Inheritance](https://docs.google.com/presentation/d/1yV9remVNvK7lyGGhzYluZqWumXmW12fdwJ606rlbK0M/edit?usp=sharing)
+  - [APIs](https://docs.google.com/presentation/d/1l-ZkjvXrNc_HxE9QNSfDGj1PwaWLWVA4XZ1cibpGzow/edit?usp=sharing)
+  - [APIs & JSON](https://docs.google.com/presentation/d/1qQY5vflLAvrQpuqFqJobj5T6-oT81a0A7ekIIRBaV7g/edit?usp=sharing)
+  - [Databases](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing)
+  - [Resource Associations](https://docs.google.com/presentation/d/1bLgsudaot9xIQdfYEUvMl8fwCL2ABEfGuotFnrxM_H4/edit?usp=sharing)
+  - [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing)
+  - [Testing 2]()
 
 - **Homework Assignments**
   - [Homework 1: Request/Response](Assignments/01-Request-Response)
@@ -21,4 +21,5 @@
   - [Homework 5: Databases](Assignments/05-Databases.md)
   - [Homework 6: Testing](Assignments/06-Testing.md)
 
-- **Quizzes**
+- **Assessments**
+  - TBD

@@ -44,7 +44,7 @@ By the end of the course, you will be able to ...
 | 11 |  Mon, Sep 28 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) |
 | 12 |  Wed, Sep 30 | [Testing 2]() |
 | 13 |  Mon, Oct 5 | Deployment & Lab |
-| 14 |  Wed, Oct 7   | Lab | Final Assessment |
+| 14 |  Wed, Oct 7 | Lab | Final Assessment |
 
 
 ## Assignments
@@ -88,7 +88,7 @@ If you submit an assignment after the due date, your instructor will apply a lat
 - Another **10% late penalty** will be applied for **every 2 days (48 hours)** that pass after the deadline. For example, an assignment that is submitted 5 days late will receive a 30% late penalty.
 - Assignments submitted **more than 7 days (1 week) late** will **not** be accepted.
 
-The **absolute last day** to submit any assignment will be **Tuesday, October 6 at 11:59 PM**.
+The **absolute last day** to submit any assignment will be **Friday, October 9 at 11:59 PM**.
 
 If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
 
