@@ -28,24 +28,44 @@ By the end of the course, you will be able to ...
 
 **Class Times:** Tuesday and Thursday at 2:30–5:20pm (14 class sessions)
 
-| Class | Date | Topics | Assignment Due | Assessment |
-|:-----:|:----:|:------:| :------------: | :--------: |
+| Class | Date | Topics  | Assessment |
+| :---: | :--: | :-----: | :--------: |
 |  1 |  Wed, Aug 19  | [Flask Routes & Request/Response](https://docs.google.com/presentation/d/16js-BaSAxfHEYtxYFE6eT_sVcxrEWDRmgcWfGpeMAds/edit?usp=sharing) |
 |  2 |  Mon, Aug 24  | [Route Variables](https://docs.google.com/presentation/d/1pkhz8gzwH5u26yKNzEPUYJ4b8gaGEAGXHoec8Ujwk80/edit?usp=sharing) |
-|  3 |  Wed, Aug 26  | [Forms](https://docs.google.com/presentation/d/1PFpGhb_UxSdVXXhw6LRtudJQpCRO67jf9gULujAPac0/edit?usp=sharing) | [Homework 1: Request/Response](Assignments/01-Request-Response) |
+|  3 |  Wed, Aug 26  | [Forms](https://docs.google.com/presentation/d/1PFpGhb_UxSdVXXhw6LRtudJQpCRO67jf9gULujAPac0/edit?usp=sharing) |  |
 |  4 |  Mon, Aug 31  | [More Forms](https://docs.google.com/presentation/d/1jL0NvJ7iewi_veSPgFNSK-s7Q49TD-ki6bMwyPN0ztk/edit?usp=sharing) |
-|  5 |  Wed, Sep 2  | [Templating Variables & Control Structures](https://docs.google.com/presentation/d/1InB_peM6oVlP8rQGJTHiYLmBAX1kXHtT5qCrZfMOpNY/edit?usp=sharing) | [Homework 2: Forms](Assignments/02-Forms.md) |
+|  5 |  Wed, Sep 2  | [Templating Variables & Control Structures](https://docs.google.com/presentation/d/1InB_peM6oVlP8rQGJTHiYLmBAX1kXHtT5qCrZfMOpNY/edit?usp=sharing) |
 |  - |  Mon, Sep 7  | **NO CLASS** - Labor Day |
 |  6 |  Wed, Sep 9  | [Template Inheritance](https://docs.google.com/presentation/d/1yV9remVNvK7lyGGhzYluZqWumXmW12fdwJ606rlbK0M/edit?usp=sharing) |
-|  7 |  Mon, Sep 14  | [APIs](https://docs.google.com/presentation/d/1l-ZkjvXrNc_HxE9QNSfDGj1PwaWLWVA4XZ1cibpGzow/edit?usp=sharing) | [Homework 3: Templates](Assignments/03-Templates.md) | Midterm Assessment |
+|  7 |  Mon, Sep 14  | [APIs](https://docs.google.com/presentation/d/1l-ZkjvXrNc_HxE9QNSfDGj1PwaWLWVA4XZ1cibpGzow/edit?usp=sharing) | Midterm Assessment |
 |  8 |  Wed, Sep 16 | [APIs & JSON](https://docs.google.com/presentation/d/1qQY5vflLAvrQpuqFqJobj5T6-oT81a0A7ekIIRBaV7g/edit?usp=sharing) |
-|  9 |  Mon, Sep 21 | [Databases](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing) | [Homework 4: APIs](Assignments/04-APIs.md) |
+|  9 |  Mon, Sep 21 | [Databases](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing) |
 | 10 |  Wed, Sep 23 | [Resource Associations](https://docs.google.com/presentation/d/1bLgsudaot9xIQdfYEUvMl8fwCL2ABEfGuotFnrxM_H4/edit?usp=sharing)|  
-| 11 |  Mon, Sep 28 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) | [Homework 5: Databases](Assignments/05-Databases.md) |
+| 11 |  Mon, Sep 28 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) |
 | 12 |  Wed, Sep 30 | [Testing 2]() |
-| 13 |  Mon, Oct 5 | Deployment & Lab | [Homework 6: Testing](Assignments/06-Testing.md) |
+| 13 |  Mon, Oct 5 | Deployment & Lab |
 | 14 |  Wed, Oct 7   | Lab | Final Assessment |
 
+
+## Assignments
+
+All assignments are due at **11:59 PM (Midnight)** on the date specified.
+
+| Week | Date | Assignment Due |
+| :--: | :--: | :------------: |
+| 1 | Sun, Aug 23 | Reading 1 |
+| 1 | Thurs, Aug 27 | [Homework 1: Request/Response](Assignments/01-Request-Response) |
+| 2 | Sun, Aug 30 | Reading 2 |
+| 2 | Thurs, Sep 3 | [Homework 2: Forms](Assignments/02-Forms.md) |
+| 3 | Tue, Sep 13 | Reading 3 |
+| 3 | Mon, Sep 14 | [Homework 3: Templates](Assignments/03-Templates.md) |
+| 4 | Tue, Sep 15 | Reading 4 |
+| 4 | Mon, Sep 21 | [Homework 4: APIs](Assignments/04-APIs.md) |
+| 5 | Tue, Sep 22 | Reading 5 |
+| 5 | Mon, Sep 28 | [Homework 5: Databases](Assignments/05-Databases.md) |
+| 6 | Tue, Sep 29 | Reading 6 |
+| 6 | Mon, Oct 5 | [Homework 6: Testing](Assignments/06-Testing.md) |
+| 7 | Wed, Oct 7 | Project Deployment |
 
 ## Evaluation
 
@@ -53,7 +73,7 @@ By the end of the course, you will be able to ...
 
 - Assignments: 60%
 - Class Participation & Code Reviews: 10%
-- Quizzes: 30%
+- Assessments: 30%
 
 In order to pass this course, you must also:
 
