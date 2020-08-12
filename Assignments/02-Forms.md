@@ -97,7 +97,7 @@ Wow, I didn't know purple penguins lived in San Francisco!
 
 ### Secret Message _(10 points)_
 
-Update the `secret_message` to show a form for the user to enter a secret message. We want to send this information securely, so make sure your form uses the `method='POST'` attribute. The page should submit the results of the form to the URL `/message_results`.
+Update the `secret_message` route to show a form for the user to enter a secret message. We want to send this information securely, so make sure your form uses the `method='POST'` attribute. The page should submit the results of the form to the URL `/message_results`.
 
 Then, update the `message_results` route to show the secret message -- with its letters **sorted in alphabetical order**.
 

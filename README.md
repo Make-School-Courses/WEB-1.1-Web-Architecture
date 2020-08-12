@@ -30,44 +30,70 @@ By the end of the course, you will be able to ...
 
 | Class | Date | Topics | Assignment Due | Assessment |
 |:-----:|:----:|:------:| :------------: | :--------: |
-|  1 |  Wed, Aug 19  | [Flask Routes & Request/Response](Lessons/01-Request-Response) |
-|  2 |  Mon, Aug 24  | [Route Variables](Lessons/02-Request-Response-2) |
-|  3 |  Wed, Aug 26  | [Forms]() | [Homework 1: Request/Response](Assignments/01-Request-Response) |
-|  4 |  Mon, Aug 31  | [More Forms]() |
-|  5 |  Wed, Sept 2  | [Templating Variables & Control Structures]() | [Homework 2: Forms](Assignments/02-Forms.md) |
-|  6 |  Mon, Sept 7  | [Template Inheritance]() |
-|  7 |  Wed, Sept 9  | [APIs & JSON]() | [Homework 3: Templates](Assignments/03-Templates.md) |
-|  8 |  Mon, Sept 14 | [APIs & JSON LAB]() |
-|  9 |  Wed, Sept 16 | [Databases]() | [Homework 4: APIs](Assignments/04-APIs.md) |
-| 10 |  Mon, Sept 21 | [Resource Associations]()|  
-| 11 |  Wed, Sept 23 | [Testing 1]() | [Homework 5: Databases](Assignments/05-Databases.md) |
+|  1 |  Wed, Aug 19  | [Flask Routes & Request/Response](https://docs.google.com/presentation/d/16js-BaSAxfHEYtxYFE6eT_sVcxrEWDRmgcWfGpeMAds/edit?usp=sharing) |
+|  2 |  Mon, Aug 24  | [Route Variables](https://docs.google.com/presentation/d/1pkhz8gzwH5u26yKNzEPUYJ4b8gaGEAGXHoec8Ujwk80/edit?usp=sharing) |
+|  3 |  Wed, Aug 26  | [Forms](https://docs.google.com/presentation/d/1PFpGhb_UxSdVXXhw6LRtudJQpCRO67jf9gULujAPac0/edit?usp=sharing) | [Homework 1: Request/Response](Assignments/01-Request-Response) |
+|  4 |  Mon, Aug 31  | [More Forms](https://docs.google.com/presentation/d/1jL0NvJ7iewi_veSPgFNSK-s7Q49TD-ki6bMwyPN0ztk/edit?usp=sharing) |
+|  5 |  Wed, Sept 2  | [Templating Variables & Control Structures](https://docs.google.com/presentation/d/1InB_peM6oVlP8rQGJTHiYLmBAX1kXHtT5qCrZfMOpNY/edit?usp=sharing) | [Homework 2: Forms](Assignments/02-Forms.md) |
+|  6 |  Mon, Sept 7  | [Template Inheritance](https://docs.google.com/presentation/d/1yV9remVNvK7lyGGhzYluZqWumXmW12fdwJ606rlbK0M/edit?usp=sharing) |
+|  7 |  Wed, Sept 9  | [APIs](https://docs.google.com/presentation/d/1l-ZkjvXrNc_HxE9QNSfDGj1PwaWLWVA4XZ1cibpGzow/edit?usp=sharing) | [Homework 3: Templates](Assignments/03-Templates.md) | Midterm Assessment |
+|  8 |  Mon, Sept 14 | [APIs & JSON](https://docs.google.com/presentation/d/1qQY5vflLAvrQpuqFqJobj5T6-oT81a0A7ekIIRBaV7g/edit?usp=sharing) |
+|  9 |  Wed, Sept 16 | [Databases](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing) | [Homework 4: APIs](Assignments/04-APIs.md) |
+| 10 |  Mon, Sept 21 | [Resource Associations](https://docs.google.com/presentation/d/1bLgsudaot9xIQdfYEUvMl8fwCL2ABEfGuotFnrxM_H4/edit?usp=sharing)|  
+| 11 |  Wed, Sept 23 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) | [Homework 5: Databases](Assignments/05-Databases.md) |
 | 12 |  Mon, Sept 28 | [Testing 2]() |
-| 13 |  Wed, Sept 30 | Review / Lab | [Homework 6: Testing](Assignments/06-Testing.md) |
-| 14 |  Mon, Oct 5   | Final Exam/Presentations |
+| 13 |  Wed, Sept 30 | Deployment & Lab | [Homework 6: Testing](Assignments/06-Testing.md) |
+| 14 |  Mon, Oct 5   | Final Assessment |
 
-
-## Class Assignments
-
-### Tutorials
-
-- [Do Cool Stuff Tutorial]()
-
-### Projects
-
-- [Project Template - Use to build your own project spec](https://github.com/Make-School-Labs/Project-Template)
 
 ## Evaluation
 
-**[INSTRUCTOR NOTE] REPLACE THE BELOW WITH EVALUATIONS THAT PERTAIN TO YOUR COURSE. THE BELOW ARE PROVIDED AS A SAMPLE**
+**To pass this course, you must earn at least a 70% weighted average, according to the following breakdown**:
 
-To pass this course you must meet the following requirements:
+- Assignments: 60%
+- Class Participation & Code Reviews: 10%
+- Quizzes: 30%
 
-- Complete all required assignments 
-- Pass all projects according to the associated project rubric
-- Pass the final summative assessment according to the rubric as specified in this class
-    - This will be further explained in the [study guide](ADD_STUDY_GUIDE_LNK)
+In order to pass this course, you must also:
+
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
+
+## Late Assignment Policy
+
+If you submit an assignment after the due date, your instructor will apply a late penalty as follows:
+
+- Late assignments that are submitted **no later that 2 days (48 hours)** after the deadline will be given a **10% late penalty**.
+- Another **10% late penalty** will be applied for **every 2 days (48 hours)** that pass after the deadline. For example, an assignment that is submitted 5 days late will receive a 30% late penalty.
+- Assignments submitted **more than 7 days (1 week) late** will **not** be accepted.
+
+The **absolute last day** to submit any assignment will be **Tuesday, October 6 at 11:59 PM**.
+
+If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
+
+## Class Recordings
+
+TBD
+
+## Academic Honesty Policy
+
+At Make School, we highly encourage collaboration between students on assignments. Working with other people is the best way to learn!
+
+However, there's a big difference between **collaboration** (writing code together with another person) and **plagiarism** (copying code from a classmate or outside source without providing proper attribution). 
+
+Here are some guidelines to follow in order to avoid plagiarism:
+
+1. If you are looking at an outside source for help, **close the window** containing the code before writing your own solution.
+1. Do not write down a line of code unless you **completely understand** how it works. (This is true even if the source you're referencing is the lesson slides/examples/etc!)
+1. If your code is still similar to an outside source or another student's, **provide attribution** by adding a comment to your code explaining where it was taken from.
+
+We take academic honesty very seriously at Make School. The consequences for violating the policy are as follows:
+
+- You will be required to write a [Self-Reflection Letter](https://docs.google.com/document/d/140_PHfDh7gu33OZI_caxEtvNzAlAepjnGcbQcXZ-MRo/edit?usp=sharing) to reflect on how your actions affected others.
+- If this is your first offense, you may be permitted to redo the assignment for a reduced grade (at the instructor's discretion).
+- The incident will be added to your permanent record at Make School and you may be placed on a Participation Improvement Plan (PIP).
+
+For subsequent offenses, more serious consequences may be considered. For more information, please see [Make School's academic honesty policy](https://make.sc/academic-honesty-policy).
 
 ## Make School Course Policies
 

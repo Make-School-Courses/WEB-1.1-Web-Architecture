@@ -10,7 +10,10 @@ Scoring for this project is as follows:
 
 | Criteria | Possible |
 | :------: | :------: |
-| | `10` |
+| Refactor Favorites | `10` |
+| Refactor Calculator | `10` |
+| Compliments | `15` |
+| Template Inheritance | `10` |
 | **TOTAL** | **`50`** |
 
 ## Getting Started
@@ -33,7 +36,7 @@ Refactor the `choose_favorites` and `favorites_results` routes to render a templ
 
 Refactor the `calculator` and `calculator_results` routes to render a template. Any relevant variables should be included in a `context` dictionary as key-value pairs and passed to `render_template`. You may use your previous homework submission as a reference.
 
-### Compliments _(15 points)_
+### Compliments _(20 points)_
 
 Take a look at the `compliments` route which displays a form to the user, located in `compliments_form.html`. The form contains:
 
@@ -48,6 +51,10 @@ Complete the `compliments_results` route to:
 - Show a randomly chosen list of compliments, according to how many the user requested, each in its own separate bullet point
 
 **HINT**: Use the `<ul>` (unordered list) and `<li>` (list item) tags to create bullet points. You'll need to use a for loop to cycle through the list of compliments!
+
+### Template Inheritance _(10 points)_
+
+
 
 ## Submission
 
