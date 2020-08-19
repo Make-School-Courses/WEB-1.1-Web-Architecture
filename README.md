@@ -1,8 +1,10 @@
 # WEB 1.1 (Web Architecture)
 
+<span class="refresh-instructions">This syllabus is a living document! Hold down the `SHIFT` key and press `Refresh` to get the latest version.</span>
+
 ## Course Description
 
-This course covers the three major patterns or architectures that make the web work; REST, Resources, and MVC. Students will learn language independent patterns that are repeated across many common servers. Other key concepts covered include server-side templating, automated testing, and the request-response cycle.
+This course is designed to introduce students to the Flask web framework. Students will learn language independent patterns that are repeated across many common servers. The course will cover topics including the request-response cycle, server-side templating, APIs, databases, & unit testing, to help students to build the skills necessary to create custom web sites.
 
 ### Why you should know this
 
@@ -53,7 +55,7 @@ All assignments are due at **11:59 PM (Midnight)** on the date specified.
 
 | Week | Date | Assignment Due |
 | :--: | :--: | :------------: |
-| 1 | Sun, Aug 23 | Reading 1 |
+| 1 | Sun, Aug 23 | [Reading 1: Flask for Dummies & Syllabus](https://www.gradescope.com/courses/164855/assignments/603131/) |
 | 1 | Thurs, Aug 27 | [Homework 1: Request/Response](Assignments/01-Request-Response) |
 | 2 | Sun, Aug 30 | Reading 2 |
 | 2 | Thurs, Sep 3 | [Homework 2: Forms](Assignments/02-Forms.md) |
@@ -69,28 +71,21 @@ All assignments are due at **11:59 PM (Midnight)** on the date specified.
 
 ## Evaluation
 
-**To pass this course, you must earn at least a 70% weighted average, according to the following breakdown**:
+**To pass this course, you must**: 
 
-- Assignments: 60%
-- Class Participation & Code Reviews: 10%
-- Assessments: 30%
+- Earn an average score of 2 on the [Course Learning Outcomes Rubric](https://make.sc/web1.1-rubric). Each section's score will be determined by your performance on that week's assignment. The last section's score will be determined by your adherence to deadlines, class participation, & completion of the readings.
+- Pass the Final Assessment.
+- Abide by the Attendance Policy.
 
-In order to pass this course, you must also:
+## Attendance Policy
 
-- Actively participate in class and abide by the attendance policy
-- Make up all classwork from all absences
+Each student will be allowed **2 (two) unexcused absences** and **2 (two) excused absences** per course per term. An absence is excused if you reach out to your instructor prior to class to explain why you can't make it. If you exceed the total number of allowed absences, you will be withdrawn from the course.
 
 ## Late Assignment Policy
 
-If you submit an assignment after the due date, your instructor will apply a late penalty as follows:
+Every assignment submitted by the deadline will be allowed **one resubmission** after receiving feedback. Late assignments will be accepted, but if you submit an assignment past the deadline, you will not be allowed a resubmission.
 
-- Late assignments that are submitted **no later that 2 days (48 hours)** after the deadline will be given a **10% late penalty**.
-- Another **10% late penalty** will be applied for **every 2 days (48 hours)** that pass after the deadline. For example, an assignment that is submitted 5 days late will receive a 30% late penalty.
-- Assignments submitted **more than 7 days (1 week) late** will **not** be accepted.
-
-The **absolute last day** to submit any assignment will be **Friday, October 9 at 11:59 PM**.
-
-If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
+If you have an extenuating circumstance such as prolonged illness, please reach out to your instructor to request an extension.
 
 ## Class Recordings
 

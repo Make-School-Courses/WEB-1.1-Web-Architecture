@@ -149,3 +149,10 @@ table>tbody>tr>td::before {
   text-decoration: none;
   color: white;
 }
+
+span.refresh-instructions {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #4bb1e4;
+}
