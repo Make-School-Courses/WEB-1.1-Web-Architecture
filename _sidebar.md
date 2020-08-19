@@ -11,7 +11,7 @@
   - [Databases](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing)
   - [Resource Associations](https://docs.google.com/presentation/d/1bLgsudaot9xIQdfYEUvMl8fwCL2ABEfGuotFnrxM_H4/edit?usp=sharing)
   - [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing)
-  - [Testing 2]()
+  - [Testing 2]
 
 - **Homework Assignments**
   - [Homework 1: Request/Response](Assignments/01-Request-Response)
