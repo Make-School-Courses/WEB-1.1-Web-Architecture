@@ -6,37 +6,31 @@ Understanding the Request/Response Cycle is critical to being able to design and
 
 Scoring for this project is as follows:
 
-| Criteria | Possible |
-| :------: | :------: |
-| Favorite Animal | `5` |
-| User's Favorite Dessert | `10` |
-| Mad Libs | `10` |
-| Multiply 2 Numbers | `10` |
-| **TOTAL** | **`35`** |
+| Score | Rating | Program Correctness | Code Quality |
+| :---: | :----: | :---------: | :----------: |
+| **1** | **Needs Improvement** | Required sections of submission are largely missing or not functional. | Code is messy and hard to follow. Code includes TODOs or does not include docstrings for most routes. |
+| **2** | **Basic** | Most routes are functional, but a few may be hard-coded or incorrect. | Some routes have code that is messy and hard to follow. Some routes do not include docstrings. |
+| **3** | **Proficient** | All routes are functional and produce the expected result. | Code is clear and easy to follow. Submitted code does not include TODOs. Nearly all functions have docstrings. |
+| **4** | **Advanced** | Stretch challenges are complete and demonstrate an advanced understanding of the concepts presented. | Code is extensible and may utilize helper functions, classes, or advanced data structures to aid in readability. |
 
 ## Getting Started
 
-In your course projects directory, create a folder for this project, and call it something like `Homework-1-Request-Response`. (In general, it's a good idea _not_ to use spaces in folder names, which is why we use dashes instead!).
+If you haven't yet, create a folder to contain your work for this course. If you put it in the `/dev/courses` folder, then the full path would be something like `/dev/courses/web1.1`.
 
-In a terminal window, navigate to your newly created folder and create a new file called `app.py` by running the following command (hint: remember **NOT** to type the `$`):
-
-```
-$ touch app.py
-```
-
-Set up a new Git repository in your folder by running:
+In a terminal window, navigate to your newly created folder and clone the [starter code](https://github.com/Make-School-Labs/WEB1.1-Homework-1-Starter):
 
 ```
-$ git init
-$ git add .
-$ git commit -m'Initial commit'
+$ git clone git@github.com:Make-School-Labs/WEB1.1-Homework-1-Starter.git Homework-1-Request-Response
 ```
 
-Go to [GitHub.com] and create a new repository for your project (make sure the box for "Initialize with a README" is **NOT** checked). Then, run the command:
+Next, go to [GitHub.com](https://github.com) and create a new repository for your project. **IMPORTANT: Make sure the box for "Initialize with a README" is NOT checked**. Then, run the following commands to push your starter code to GitHub:
 
 ```
-$ git remote add origin git@github.com:YOUR_USERNAME/YOUR_REPO_NAME.git
+$ git remote set-url origin git@github.com:YOUR_USERNAME/YOUR_REPO_NAME.git
+$ git push -u origin master
 ```
+
+Refresh the page in your newly-created GitHub repo to make sure your changes were successfully pushed.
 
 Finally, make sure you have installed Flask:
 
@@ -104,7 +98,7 @@ You should see something like this in your Terminal output:
 
 Go to the URL [http://localhost:5000](http://localhost:5000) and check out your cool new webpage!!
 
-### Your Favorite Animal _(5 points)_
+### Your Favorite Animal _(Required)_
 
 Now that we've got a Hello World under our belts, let's try something more complicated! Usually, when you build a website, it doesn't consist of just one page - it has _many_ pages. Let's practice creating another!
 
@@ -136,15 +130,15 @@ Now, try it out! Try typing `localhost:5000/animal/zebra` into your browser and 
 Wow, zebra is my favorite animal, too!
 ```
 
-### Your User's Favorite Dessert _(10 points)_
+### Your User's Favorite Dessert _(Required) _
 
 Now that we've gotten the hang of route variables, let's try another. Write a route `favorite_dessert` for the URL `/dessert/<users_dessert>`. If I visit the URL `/dessert/donuts`, I should see the text: `How did you know I liked donuts?`
 
-### Mad Libs _(10 Points)_
+### Mad Libs _(Required)_
 
 Write a route for the URL `/madlibs/<adjective>/<noun>` which takes in 2 strings and displays a funny (but work-appropriate) story using them! 
 
-### Multiply 2 Numbers _(10 points)_
+### Multiply 2 Numbers _(Required)_
 
 Next, let's try a more challenging one. Write a route `multiply` that takes in 2 numbers, multiplies them, and displays the results. It should use the URL `/multiply/<number1>/<number2>`, then take in `number1` and `number2` as parameters.
 
@@ -202,6 +196,28 @@ Write a route `dicegame` that chooses a random number from 1 to 6. If the user r
 - If I go to the URL `/dicegame` again, I should see a result like: `You rolled a 5. You lost!`
 
 **HINT**: You can use the Python `random` library method [randint()](https://www.w3schools.com/python/ref_random_randint.asp) to generate a random number from 1 to 6.
+
+## Testing
+
+To test the correctness of your code, first make sure you've installed pytest:
+
+```bash
+$ pip3 install pytest
+```
+
+Then, run the tests:
+
+```bash
+$ pytest
+```
+
+If you'd like to run just a single test, you can run:
+
+```bash
+$ pytest -k 'test_penguins'
+```
+
+To see what tests are available to run, open the `test_app.py` file in your starter code and take a look!
 
 ## Submission
 
