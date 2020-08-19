@@ -136,7 +136,7 @@ Now that we've gotten the hang of route variables, let's try another. Write a ro
 
 ### Mad Libs _(Required)_
 
-Write a route for the URL `/madlibs/<adjective>/<noun>` which takes in 2 strings and displays a funny (but work-appropriate) story using them! 
+Write a route for the URL `/madlibs/<adjective>/<noun>` which takes in 2 strings and displays a funny (but work-appropriate) story using them!
 
 ### Multiply 2 Numbers _(Required)_
 
@@ -221,7 +221,15 @@ To see what tests are available to run, open the `test_app.py` file in your star
 
 ## Submission
 
-Submit your assignment using [Gradescope](https://gradescope.com).
+When you're ready to submit your work, make sure you push all of your changes to GitHub:
+
+```bash
+$ git add .
+$ git commit -m'Completed all challenges'
+$ git push
+```
+
+Then, submit your assignment using [Gradescope](https://gradescope.com).
 
 ## Resources
 
