@@ -27,7 +27,7 @@ By the end of the course, you will be able to ...
 **Class Times:** Tuesday and Thursday at 2:30–5:20pm (14 class sessions)
 
 | Class | Date | Topic(s) |
-| :---: | :--: | :-----: | :--------: |
+| :---: | :--: | :-----: |
 |  1 | Wed, Aug 19 | [Flask Routes & Request/Response](https://docs.google.com/presentation/d/16js-BaSAxfHEYtxYFE6eT_sVcxrEWDRmgcWfGpeMAds/edit?usp=sharing)<br>-AND-<br>[Route Variables](https://docs.google.com/presentation/d/1pkhz8gzwH5u26yKNzEPUYJ4b8gaGEAGXHoec8Ujwk80/edit?usp=sharing) |
 |  2 | Mon, Aug 24 | [Forms](https://docs.google.com/presentation/d/1PFpGhb_UxSdVXXhw6LRtudJQpCRO67jf9gULujAPac0/edit?usp=sharing) |
 |  3 | Wed, Aug 26 | [Templating Variables & Control Structures](https://docs.google.com/presentation/d/1InB_peM6oVlP8rQGJTHiYLmBAX1kXHtT5qCrZfMOpNY/edit?usp=sharing) |
@@ -53,15 +53,15 @@ All assignments are due at **11:59 PM (Midnight)** on the date specified.
 | :--: | :--: | :------------: |
 | 1 | Sun, Aug 23 | [Reading 1: Flask for Dummies & Syllabus](https://www.gradescope.com/courses/164855/assignments/603131/) |
 | 1 | Thurs, Aug 27 | [Homework 1: Request/Response](Assignments/01-Request-Response) |
-| 2 | Sun, Aug 30 | Reading 2 |
+| 2 | Sun, Aug 30 | [Reading 2: Forms & Templates](https://www.gradescope.com/courses/164855/assignments/612405) |
 | 2 | Thurs, Sep 3 | [Homework 2: Forms & Templates](Assignments/02-Forms.md) |
-| 3 | Tue, Sep 13 | Reading 3 |
+| 3 | Wed, Sep 9 | [Reading 3: RapidAPI](https://www.gradescope.com/courses/164855/assignments/612436) |
 | 3 | Mon, Sep 14 | [Homework 3: APIs](Assignments/03-APIs.md) |
-| 4 | Tue, Sep 15 | Reading 4 |
+| 4 | Wed, Sep 16 | Reading 4:  |
 | 4 | Mon, Sep 21 | [Homework 4: Databases](Assignments/04-Databases.md) |
-| 5 | Tue, Sep 22 | Reading 5 |
+| 5 | Wed, Sep 23 | Reading 5 |
 | 5 | Mon, Sep 28 | [Homework 5: Testing](Assignments/05-Testing.md) |
-| 6 | Tue, Sep 29 | Reading 6 |
+| 6 | Wed, Sep 30 | Reading 6 |
 | 6 | Mon, Oct 5 | Final Project |
 | 7 | Wed, Oct 7 | Project Deployment |
 
