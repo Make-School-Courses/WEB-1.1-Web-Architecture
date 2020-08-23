@@ -6,30 +6,40 @@ You've probably seen forms on nearly every website you've ever visited. For exam
 
 For this assignment, we'll be practicing using forms in our web applications. This will allow you to collect user data on everything from their username and password to their search query, favorite food, hometown, next move in a chess game... and more!
 
+We'll also be practicing using Jinja2 templates to store our HTML code. This will allow you to write much more complex programs that integrate code in multiple languages.
+
 Scoring for this project is as follows:
 
-| Criteria | Possible |
-| :------: | :------: |
-| Fro-Yo Ordering | `10` |
-| Favorite Things | `10` |
-| Secret Message | `10` |
-| Calculator | `20` |
-| **TOTAL** | **`50`** |
+| Score | Rating | Correctness | Code Quality |
+| :---: | :----: | :---------: | :----------: |
+| **1** | **Needs Improvement** | Required sections of submission are largely missing or not functional. | Code is messy and hard to follow. Code includes TODOs or does not include docstrings for most routes. |
+| **2** | **Basic** | Most routes are functional, but a few may be hard-coded or incorrect. | Some routes have code that is messy and hard to follow. Some routes do not include docstrings. |
+| **3** | **Proficient** | All routes are functional and produce the expected result. | Code is clear and easy to follow. Submitted code does not include TODOs. Nearly all functions have docstrings. |
+| **4** | **Advanced** | Stretch challenges are complete and demonstrate an advanced understanding of the concepts presented. | Code is extensible and may utilize helper functions, classes, or advanced data structures to aid in readability. |
 
 
 ## Getting Started
 
-Clone the [Starter Code]() for this assignment into your projects directory by running the following command:
+If you haven't yet, create a folder to contain your work for this course. If you put it in the `/dev/courses` folder, then the full path would be something like `/dev/courses/web1.1`.
+
+In a terminal window, navigate to your newly created folder and clone the [starter code](https://github.com/Make-School-Labs/WEB1.1-Homework-2-Starter):
 
 ```
-$ git clone ...
+$ git clone git@github.com:Make-School-Labs/WEB1.1-Homework-2-Starter.git Homework-1-Request-Response
 ```
 
-Then, open up the project folder in your favorite code editor (we recommend VSCode) and open up `app.py` to get started!
+Next, go to [GitHub.com](https://github.com) and create a new repository for your project. **IMPORTANT: Make sure the box for "Initialize with a README" is NOT checked**. Then, run the following commands to push your starter code to GitHub:
 
-## Instructions
+```
+$ git remote set-url origin git@github.com:YOUR_USERNAME/YOUR_REPO_NAME.git
+$ git push -u origin master
+```
 
-### Fro-Yo Ordering _(10 points)_
+Refresh the page in your newly-created GitHub repo to make sure your changes were successfully pushed.
+
+## Part 1: Forms
+
+### Fro-Yo Ordering
 
 Let's recreate one of the problems from the last assignment - learning your user's favorite dessert - by creating a mini **fro-yo** (or, frozen yogurt) shop. However, this time we'll be using a **form** to do so to collect our data. This is a more proper, industry-standard way of collecting user data!
 
@@ -40,9 +50,9 @@ First, update the route called `choose_froyo` with the following contents:
 def choose_froyo():
     """Shows a form to collect the user's Fro-Yo order."""
     return """
-    <form action="/froyo_results/" method="GET">
+    <form action="/froyo_results" method="GET">
         What is your favorite Fro-Yo flavor? <br/>
-        <input type="text" name="froyo_flavor"><br/>
+        <input type="text" name="flavor"><br/>
         <input type="submit" value="Submit!">
     </form>
     """
@@ -68,13 +78,13 @@ def show_froyo_results():
 
 Here, we're using a **dictionary** called `request.args`, which stores all of the data that the user entered into the form as **key-value pairs**. We can retrieve each piece of user-entered data from the dictionary using `.get()`.
 
-***CHECK FOR UNDERSTANDING***: Why did we use `request.args`, and not `request.form`?
+<span class="check-for-understanding">Check for Understanding:</span> Why did we use `request.args`, and not `request.form`?
 
 Save your work, and try out your route again by re-submitting the form. Do you see a result?
 
 Next, **add another input field for the user to enter what toppings they want.** To do so, you'll need to do the following:
 
-1. Add another HTML `input type="text"` field to the `choose_froyo` route for toppings. Make sure to give it a unique `name=` attribute that's different than the one we already used for the flavor.
+1. Add another HTML `input type="text"` field to the `choose_froyo` route for toppings. Make sure that it has the attribute `name="toppings"` so that it'll pass the unit tests.
 1. Add some extra text above the input tag to tell the user what to type in.
 1. In the `show_froyo_results` route, create another variable to store the user's chosen toppings. Use `request.form` to get the toppings and store it in the variable.
 1. Add the variable to the route's output string to show the user what they ordered!
@@ -85,9 +95,9 @@ When you're done, try out the route again. When you submit the form, you should 
 You ordered Lychee flavored Fro-Yo with toppings Mochi, Brownie Bites, and Gummy Bears!
 ```
 
-### Favorite Things _(10 points)_
+### Favorite Things
 
-Update the `favorites` route to show a form for the user to enter their favorite color, animal, and city. Each of these inputs should be collected in a different text box. The page should submit the results of the form to the URL `/favorite_results` when the user presses the submit button.
+Update the `favorites` route to show a form for the user to enter their favorite color, animal, and city. Each of these inputs should be collected in a different text box, with `name=color`, `name=animal`, and `name=city`, respectively. (Make sure the input names match exactly; otherwise, the tests won't pass!) The page should submit the results of the form to the URL `/favorite_results` when the user presses the submit button.
 
 Then, update the `favorite_results` route to show the user the following sentence (with `purple`, `penguin`, and `San Francisco` changed to whichever color, animal, and city the user entered):
 
@@ -95,22 +105,22 @@ Then, update the `favorite_results` route to show the user the following sentenc
 Wow, I didn't know purple penguins lived in San Francisco!
 ```
 
-### Secret Message _(10 points)_
+### Secret Message
 
-Update the `secret_message` route to show a form for the user to enter a secret message. We want to send this information securely, so make sure your form uses the `method='POST'` attribute. The page should submit the results of the form to the URL `/message_results`.
+Update the `secret_message` route to show a form for the user to enter a secret message. Make sure to use a text input box with `name=message`. We want to send this information securely, so make sure your form uses the `method='POST'` attribute. The page should submit the results of the form to the URL `/message_results`.
 
 Then, update the `message_results` route to show the secret message -- with its letters **sorted in alphabetical order**.
 
 **HINT**: Call the `.sort_letters()` method that's included in the starter code!
 
-So, if I enter the phrase `Spongebob Squarepants` into the form field and press submit, I should see the result of:
+So, if I enter the phrase `Make School Rocks` into the form field and press submit, I should see the result of:
 
 ```
 Here's your secret message!
- SSaabbeegnnooppqrstu
+ MRSaccehkklooos
 ```
 
-### Calculator _(20 points)_
+### Calculator
 
 Let's recreate the "Calculator" problem from the last homework, by properly using a form!
 
@@ -125,6 +135,36 @@ So, after submitting the form, you should see something like:
 ```
 You chose to add 2 and 5. Your result is: 7
 ```
+
+## Part 2: Templates
+
+### Refactor Fro-Yo
+
+Refactor the `choose_favorites` and `favorites_results` routes to render a template. Any relevant variables should be included in a `context` dictionary as key-value pairs and passed to `render_template`.
+
+If you need a refresher on how to do this, check out the [Repl.It activity](https://repl.it/@MeredithMurphy1/JinjaRefactor#main.py) we completed during class.
+
+### Refactor Calculator
+
+Refactor the `calculator` and `calculator_results` routes to render a template. Any relevant variables should be included in a `context` dictionary as key-value pairs and passed to `render_template`.
+
+### Compliments
+
+Take a look at the `compliments` route which displays a form to the user, located in `compliments_form.html`. The form contains:
+
+- A text box for the user's name
+- A checkbox for choosing whether the user wants compliments (yes/no)
+- A dropdown for choosing how many compliments the user would like
+
+Complete the `compliments_results` route to:
+
+- Greet the user by name
+- Only show them compliments if the checkbox was checked
+- Show a randomly chosen list of compliments, according to how many the user requested, each in its own separate bullet point
+
+**HINT 1**: You can use the [random.sample()](https://www.w3schools.com/python/ref_random_sample.asp) method to choose a randomly generated subset of a list.
+
+**HINT 2**: Use the `<ul>` (unordered list) and `<li>` (list item) tags to create bullet points. You'll need to use a for loop to cycle through the list of compliments!
 
 ## Submission
 

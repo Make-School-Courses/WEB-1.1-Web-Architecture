@@ -156,3 +156,9 @@ span.refresh-instructions {
     font-size: 1.2em;
     color: #4bb1e4;
 }
+
+span.check-for-understanding {
+    font-weight: bold;
+    font-style: italic;
+    border-color: #4bb1e4;
+}
