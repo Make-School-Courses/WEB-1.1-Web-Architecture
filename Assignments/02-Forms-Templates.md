@@ -166,13 +166,44 @@ Complete the `compliments_results` route to:
 
 **HINT 2**: Use the `<ul>` (unordered list) and `<li>` (list item) tags to create bullet points. You'll need to use a for loop to cycle through the list of compliments!
 
+## Testing
+
+To test the correctness of your code, first make sure you've installed unittest:
+
+```bash
+$ pip3 install unittest
+```
+
+Then, run the tests:
+
+```bash
+$ python3 test_app.py
+```
+
+If you'd like to run just a single test, you can run:
+
+```bash
+$ python3 test_app.py TestApp.test_froyo
+```
+
+To see what tests are available to run, open the `test_app.py` file in your starter code and take a look!
+
 ## Submission
 
-Submit your assignment using [Gradescope](https://gradescope.com).
+When you're ready to submit your work, make sure you push all of your changes to GitHub:
+
+```bash
+$ git add .
+$ git commit -m'Completed all challenges'
+$ git push
+```
+
+Then, submit your assignment using [Gradescope](https://gradescope.com).
 
 ## Resources
 
 1. [Processing Request Data in Flask](https://scotch.io/bar-talk/processing-incoming-request-data-in-flask)
+1. [Rendering Pages in Flask Using Jinja](https://hackersandslackers.com/flask-jinja-templates/)
 
 <!--
 ### Animal Facts

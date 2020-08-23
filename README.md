@@ -54,7 +54,7 @@ All assignments are due at **11:59 PM (Midnight)** on the date specified.
 | 1 | Sun, Aug 23 | [Reading 1: Flask for Dummies & Syllabus](https://www.gradescope.com/courses/164855/assignments/603131/) |
 | 1 | Thurs, Aug 27 | [Homework 1: Request/Response](Assignments/01-Request-Response) |
 | 2 | Sun, Aug 30 | [Reading 2: Forms & Templates](https://www.gradescope.com/courses/164855/assignments/612405) |
-| 2 | Thurs, Sep 3 | [Homework 2: Forms & Templates](Assignments/02-Forms.md) |
+| 2 | Thurs, Sep 3 | [Homework 2: Forms & Templates](Assignments/02-Forms-Templates.md) |
 | 3 | Wed, Sep 9 | [Reading 3: RapidAPI](https://www.gradescope.com/courses/164855/assignments/612436) |
 | 3 | Mon, Sep 14 | [Homework 3: APIs](Assignments/03-APIs.md) |
 | 4 | Wed, Sep 16 | Reading 4:  |
