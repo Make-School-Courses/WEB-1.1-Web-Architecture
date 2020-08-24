@@ -72,7 +72,7 @@ Next, create a second route for `show_froyo_results`, with the following content
 ```py
 @app.route('/froyo_results')
 def show_froyo_results():
-    users_froyo_flavor = request.args.get('froyo_flavor')
+    users_froyo_flavor = request.args.get('flavor')
     return f'You ordered {users_froyo_flavor} flavored Fro-Yo!'
 ```
 

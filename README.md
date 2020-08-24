@@ -57,7 +57,7 @@ All assignments are due at **11:59 PM (Midnight)** on the date specified.
 | 2 | Thurs, Sep 3 | [Homework 2: Forms & Templates](Assignments/02-Forms-Templates.md) |
 | 3 | Wed, Sep 9 | [Reading 3: RapidAPI](https://www.gradescope.com/courses/164855/assignments/612436) |
 | 3 | Mon, Sep 14 | [Homework 3: APIs](Assignments/03-APIs.md) |
-| 4 | Wed, Sep 16 | Reading 4:  |
+| 4 | Wed, Sep 16 | Reading 4 |
 | 4 | Mon, Sep 21 | [Homework 4: Databases](Assignments/04-Databases.md) |
 | 5 | Wed, Sep 23 | Reading 5 |
 | 5 | Mon, Sep 28 | [Homework 5: Testing](Assignments/05-Testing.md) |
