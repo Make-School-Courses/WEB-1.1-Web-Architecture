@@ -25,7 +25,7 @@ If you haven't yet, create a folder to contain your work for this course. If you
 In a terminal window, navigate to your newly created folder and clone the [starter code](https://github.com/Make-School-Labs/WEB1.1-Homework-2-Starter):
 
 ```
-$ git clone git@github.com:Make-School-Labs/WEB1.1-Homework-2-Starter.git Homework-1-Request-Response
+$ git clone git@github.com:Make-School-Labs/WEB1.1-Homework-2-Starter.git Homework-2-Forms
 ```
 
 Next, go to [GitHub.com](https://github.com) and create a new repository for your project. **IMPORTANT: Make sure the box for "Initialize with a README" is NOT checked**. Then, run the following commands to push your starter code to GitHub:
