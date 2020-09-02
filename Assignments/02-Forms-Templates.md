@@ -22,10 +22,10 @@ Scoring for this project is as follows:
 
 If you haven't yet, create a folder to contain your work for this course. If you put it in the `/dev/courses` folder, then the full path would be something like `/dev/courses/web1.1`.
 
-In a terminal window, navigate to your newly created folder and clone the [starter code](https://github.com/Make-School-Labs/WEB1.1-Homework-2-Starter):
+In a terminal window, navigate to your newly created folder and clone the [starter code](https://github.com/Make-School-Labs/WEB-1.1-Homework-2-Starter):
 
 ```
-$ git clone git@github.com:Make-School-Labs/WEB1.1-Homework-2-Starter.git Homework-2-Forms
+$ git clone git@github.com:Make-School-Labs/WEB-1.1-Homework-2-Starter.git Homework-2-Forms
 ```
 
 Next, go to [GitHub.com](https://github.com) and create a new repository for your project. **IMPORTANT: Make sure the box for "Initialize with a README" is NOT checked**. Then, run the following commands to push your starter code to GitHub:
@@ -86,7 +86,7 @@ Next, **add another input field for the user to enter what toppings they want.**
 
 1. Add another HTML `input type="text"` field to the `choose_froyo` route for toppings. Make sure that it has the attribute `name="toppings"` so that it'll pass the unit tests.
 1. Add some extra text above the input tag to tell the user what to type in.
-1. In the `show_froyo_results` route, create another variable to store the user's chosen toppings. Use `request.form` to get the toppings and store it in the variable.
+1. In the `show_froyo_results` route, create another variable to store the user's chosen toppings. Use `request.args` to get the toppings and store it in the variable.
 1. Add the variable to the route's output string to show the user what they ordered!
 
 When you're done, try out the route again. When you submit the form, you should see something like:

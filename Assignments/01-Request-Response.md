@@ -130,7 +130,7 @@ Now, try it out! Try typing `localhost:5000/animal/zebra` into your browser and 
 Wow, zebra is my favorite animal, too!
 ```
 
-### Your User's Favorite Dessert _(Required) _
+### Your User's Favorite Dessert _(Required)_
 
 Now that we've gotten the hang of route variables, let's try another. Write a route `favorite_dessert` for the URL `/dessert/<users_dessert>`. If I visit the URL `/dessert/donuts`, I should see the text: `How did you know I liked donuts?`
 
