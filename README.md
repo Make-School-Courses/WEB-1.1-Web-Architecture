@@ -10,6 +10,12 @@ This course is designed to introduce students to the Flask web framework. Studen
 
 1. WEB 1.0 (Web Foundations)
 
+## Course Specifics
+
+**Course Delivery**: online | 7 weeks | 14 sessions
+
+**Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
+
 ## Learning Outcomes
 
 By the end of the course, you will be able to ...
@@ -107,6 +113,12 @@ We take academic honesty very seriously at Make School. The consequences for vio
 - The incident will be added to your permanent record at Make School and you may be placed on a Participation Improvement Plan (PIP).
 
 For subsequent offenses, more serious consequences may be considered. For more information, please see [Make School's academic honesty policy](https://make.sc/academic-honesty-policy).
+
+## Information Resources
+
+Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
+
+- [make.sc/library](http://make.sc/library)
 
 ## Make School Course Policies
 
