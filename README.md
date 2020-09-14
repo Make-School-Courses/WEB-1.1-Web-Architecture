@@ -34,8 +34,8 @@ By the end of the course, you will be able to ...
 |  4 | Mon, Aug 31 | [APIs](https://docs.google.com/presentation/d/1l-ZkjvXrNc_HxE9QNSfDGj1PwaWLWVA4XZ1cibpGzow/edit?usp=sharing) |
 |  5 | Wed, Sep 2 | [APIs & JSON](https://docs.google.com/presentation/d/1qQY5vflLAvrQpuqFqJobj5T6-oT81a0A7ekIIRBaV7g/edit?usp=sharing) |
 |  - | Mon, Sep 7 | **NO CLASS** - Labor Day |
-|  6 | Wed, Sep 9 | [Databases](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing) |
-|  7 | Mon, Sep 14  | [Resource Associations](https://docs.google.com/presentation/d/1bLgsudaot9xIQdfYEUvMl8fwCL2ABEfGuotFnrxM_H4/edit?usp=sharing) |
+|  6 | Wed, Sep 9 | [Databases - SQL & Relationships](https://docs.google.com/presentation/d/150fozz5lLTh1vMIBT4rMD4c12vBO_4FayOZpDvqRgew/edit?usp=sharing) |
+|  7 | Mon, Sep 14  | [Databases - NoSQL](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing) |
 |  8 | Wed, Sep 16 | Lab Day |
 |  9 | Mon, Sep 21 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) |
 | 10 | Wed, Sep 23 | [Testing 2](https://docs.google.com/presentation/d/1c0WwMdnYp5Ho3GyYGW9wC9cHh_p3N-t6uzhul80OG9U/edit) |
