@@ -24,14 +24,14 @@ If you haven't yet, create a folder to contain your work for this course. If you
 In a terminal window, navigate to your newly created folder and clone the [starter code](https://github.com/Make-School-Labs/WEB-1.1-Homework-4-Starter):
 
 ```
-$ git clone git@github.com:Make-School-Labs/WEB-1.1-Homework-4-Starter.git Homework-3-APIs
+git clone git@github.com:Make-School-Labs/WEB-1.1-Homework-4-Starter.git Homework-4-Databases
 ```
 
 Next, go to [GitHub.com](https://github.com) and create a new repository for your project. **IMPORTANT: Make sure the box for "Initialize with a README" is NOT checked**. Then, run the following commands to push your starter code to GitHub:
 
 ```
-$ git remote set-url origin git@github.com:YOUR_USERNAME/YOUR_REPO_NAME.git
-$ git push -u origin master
+git remote set-url origin git@github.com:YOUR_USERNAME/YOUR_REPO_NAME.git
+git push -u origin master
 ```
 
 Refresh the page in your newly-created GitHub repo to make sure your changes were successfully pushed.
@@ -175,9 +175,9 @@ Stretch challenges are totally up to you! Here are some ideas you may want to co
 When you're ready to submit your work, make sure you push all of your changes to GitHub:
 
 ```bash
-$ git add .
-$ git commit -m'Completed all challenges'
-$ git push
+git add .
+git commit -m'Completed all challenges'
+git push
 ```
 
 Then, submit your assignment using [Gradescope](https://gradescope.com).
