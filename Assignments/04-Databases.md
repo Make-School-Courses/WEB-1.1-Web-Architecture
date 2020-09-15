@@ -126,7 +126,7 @@ Note that this route is a little bit special, as it accepts both a `GET` and a `
 
 **HINT**: If you're having trouble with this step, look at examples of using the [insert_one](https://api.mongodb.com/python/current/api/pymongo/collection.html#pymongo.collection.Collection.insert_one) operation!
 
-Use [Robo 3T's Studio 3T program](https://robomongo.org/) to inspect the contents of your database and verify that the data was added.
+Use the [Robo 3T program](https://robomongo.org/) to inspect the contents of your database and verify that the data was added.
 
 ### List Plants
 
