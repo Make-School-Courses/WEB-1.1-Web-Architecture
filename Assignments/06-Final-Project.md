@@ -23,6 +23,8 @@ To meet all requirements, your project must:
 - Have at least 5 routes
 - Utilize at least 3 templates
 
+Your work will be evaluated according to the following rubric:
+
 | Score | Rating | Correctness | Code Quality |
 | :---: | :----: | :---------: | :----------: |
 | **1** | **Needs Improvement** | Required sections of submission are largely missing or not functional. | Code is messy and hard to follow. Code includes TODOs or does not include docstrings for most routes. |
