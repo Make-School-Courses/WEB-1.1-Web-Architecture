@@ -69,7 +69,7 @@ All assignments are due at **11:59 PM (Midnight)** on the date specified.
 | 5 | Wed, Sep 23 | [Final Project Proposal](https://www.gradescope.com/courses/164855/assignments/691577) |
 | 5 | Mon, Sep 28 | [Homework 5: Testing](Assignments/05-Testing.md) |
 | 6 | Wed, Sep 30 | TBD |
-| 6 | Mon, Oct 5 | Final Project |
+| 6 | Mon, Oct 5 | [Final Project](Assignments/06-Final-Project.md) |
 | 7 | Wed, Oct 7 | Project Deployment |
 
 ## Evaluation
