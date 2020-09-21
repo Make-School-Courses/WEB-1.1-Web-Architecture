@@ -43,8 +43,8 @@ By the end of the course, you will be able to ...
 |  6 | Wed, Sep 9 | [Databases - SQL & Relationships](https://docs.google.com/presentation/d/150fozz5lLTh1vMIBT4rMD4c12vBO_4FayOZpDvqRgew/edit?usp=sharing) |
 |  7 | Mon, Sep 14  | [Databases - NoSQL](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing) |
 |  8 | Wed, Sep 16 | [Databases & Flask](https://docs.google.com/presentation/d/1Bp19iANKV_04pqgiasaVXQD-aXBD1kLd69LYmUMJMpI/edit?usp=sharing) |
-|  9 | Mon, Sep 21 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) |
-| 10 | Wed, Sep 23 | [Testing 2](https://docs.google.com/presentation/d/1c0WwMdnYp5Ho3GyYGW9wC9cHh_p3N-t6uzhul80OG9U/edit) |
+|  9 | Mon, Sep 21 | [Databases Review + Lab](https://docs.google.com/presentation/d/1j79hyQw7hLCFLNsqvmNy2szdGd8GOnyWEN9H06EmL1w/edit?usp=sharing) |
+| 10 | Wed, Sep 23 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) |
 | 11 | Mon, Sep 28 | Bonus Topic 1 |
 | 12 | Wed, Sep 30 | Bonus Topic 2 |
 | 13 | Mon, Oct 5 | Deployment & Lab |
@@ -66,9 +66,9 @@ All assignments are due at **11:59 PM (Midnight)** on the date specified.
 | 3 | Mon, Sep 14 | [Reading 3.5: Many-to-Many Relationships](https://www.gradescope.com/courses/164855/assignments/658717/)
 | 4 | Wed, Sep 16 | [Reading 4: Flask-PyMongo](https://www.gradescope.com/courses/164855/assignments/670480/) |
 | 4 | Mon, Sep 21 | [Homework 4: Databases](Assignments/04-Databases.md) |
-| 5 | Wed, Sep 23 | Reading 5 |
+| 5 | Wed, Sep 23 | [Final Project Proposal](https://www.gradescope.com/courses/164855/assignments/691577) |
 | 5 | Mon, Sep 28 | [Homework 5: Testing](Assignments/05-Testing.md) |
-| 6 | Wed, Sep 30 | Reading 6 |
+| 6 | Wed, Sep 30 | TBD |
 | 6 | Mon, Oct 5 | Final Project |
 | 7 | Wed, Oct 7 | Project Deployment |
 
