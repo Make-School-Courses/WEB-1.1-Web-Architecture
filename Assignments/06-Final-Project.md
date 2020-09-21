@@ -12,7 +12,7 @@ You may choose any topic for your project. Some example topics are:
 2. An e-commerce site where users can review their favorite products (Resources: Product & Review)
 3. A blog site where users can make blog posts & comment on others' blog posts (Resources: BlogPost & Comment)
 
-Keep in mind that since we haven't covered user logins/authentication in this course, you won't really be able to restrict access to certain users. Thus, everyone on the site can see every resource.
+Keep in mind that since we haven't covered user logins/authentication in this course, you won't really be able to restrict access to certain users. Thus, everyone on the site can see every item of each resource.
 
 ## Requirements
 
