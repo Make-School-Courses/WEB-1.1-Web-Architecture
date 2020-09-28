@@ -22,6 +22,7 @@ To meet all requirements, your project must:
 - Have at least one of each of: Create, Read (List & Detail), Update, & Delete endpoints
 - Have at least 5 routes
 - Utilize at least 3 templates
+- Create a video demo of your working project
 
 Your work will be evaluated according to the following rubric:
 
@@ -69,6 +70,10 @@ Then, complete the `delete()` route and make sure that there is a way to access 
 ### Step 6: Add a Secondary Resource
 
 Now, add a secondary resource & do (some of) these steps again! You should at the very least be able to CREATE & READ items of the secondary resource.
+
+## Video Demo
+
+When you're finished implementing your project, you will need to submit a ~3 minute video demonstrating your working project and explaining your code. You can use the [QuickTime program](https://support.apple.com/guide/quicktime-player/welcome/mac) to record a screenshare to submit for this.
 
 ## Submission
 
