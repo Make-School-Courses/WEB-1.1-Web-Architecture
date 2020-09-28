@@ -45,8 +45,8 @@ By the end of the course, you will be able to ...
 |  8 | Wed, Sep 16 | [Databases & Flask](https://docs.google.com/presentation/d/1Bp19iANKV_04pqgiasaVXQD-aXBD1kLd69LYmUMJMpI/edit?usp=sharing) |
 |  9 | Mon, Sep 21 | [Databases Review + Lab](https://docs.google.com/presentation/d/1j79hyQw7hLCFLNsqvmNy2szdGd8GOnyWEN9H06EmL1w/edit?usp=sharing) |
 | 10 | Wed, Sep 23 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) |
-| 11 | Mon, Sep 28 | Bonus Topic 1 |
-| 12 | Wed, Sep 30 | Bonus Topic 2 |
+| 11 | Mon, Sep 28 | Lab Day |
+| 12 | Wed, Sep 30 | Bonus Topic |
 | 13 | Mon, Oct 5 | Deployment & Lab |
 | 14 | Wed, Oct 7 | Final Assessment |
 
