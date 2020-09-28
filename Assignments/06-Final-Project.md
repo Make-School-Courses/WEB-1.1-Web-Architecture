@@ -34,11 +34,41 @@ Your work will be evaluated according to the following rubric:
 
 ## Starter Code
 
-TBD
+Clone the code [here](https://github.com/Make-School-Labs/WEB-1.1-Final-Project-Starter) to start:
+
+```bash
+git clone git@github.com:Make-School-Labs/WEB-1.1-Final-Project-Starter.git
+```
 
 ## Step-by-Step Instructions
 
-TBD
+If you're having trouble getting started, follow these instructions:
+
+### Step 1: Add some fake data
+
+Open up [Robo3T](https://robomongo.org/) or your MongoDB program of choice, and add some data for your resources! If you want, you can do this step later, but I find it helpful to know ahead of time what my data looks like.
+
+### Step 2: Build the List Page
+
+Complete the `list_page()` route & `list.html` to display all items of your primary resource.
+
+### Step 3: Build the Detail Page
+
+Complete the `detail_page()` route and `detail.html` to display one item of your primary resource based on the id passed in via the URL. Make sure that this page is displayed when you click on a resource from the list page.
+
+### Step 4: Build the Create Page
+
+Complete the `create_page()` route and `create.html` to display & process a form to create a new item of your primary resource.
+
+### Step 5: Build the Edit & Delete Pages
+
+Complete the `edit_page()` route and `edit.html` to finish the edit flow. Make sure that there is a way to access the edit page from the detail page for a single item of your resource!
+
+Then, complete the `delete()` route and make sure that there is a way to access it from the detail page (hint: use a form with only a button). 
+
+### Step 6: Add a Secondary Resource
+
+Now, add a secondary resource & do (some of) these steps again! You should at the very least be able to CREATE & READ items of the secondary resource.
 
 ## Submission
 
