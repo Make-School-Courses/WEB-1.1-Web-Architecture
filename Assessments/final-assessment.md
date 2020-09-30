@@ -1,6 +1,6 @@
 # Final Assessment Study Guide
 
-The final assessment will be approx. 30-45 minutes and will be delivered via Gradescope during the final day of class, Wed Oct 7. Question types will include multiple choice, short answer, & fill in the blank.
+The final assessment will be approx. 30-45 minutes and will be delivered via Gradescope during the final day of class, Wed Oct 7. Question types will include multiple choice, short answer, & fill in the blank. It will be Open Note & you will be permitted to use any resources, notes, past projects, etc but may not consult anyone else (classmates or otherwise) on your answers.
 
 Please review the following learning objectives to ensure that you are prepared for the final assessment.
 
