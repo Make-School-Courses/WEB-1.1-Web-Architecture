@@ -47,7 +47,7 @@ By the end of the course, you will be able to ...
 | 10 | Wed, Sep 23 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) |
 | 11 | Mon, Sep 28 | Lab Day |
 | 12 | Wed, Sep 30 | Lab Day |
-| 13 | Mon, Oct 5 | Deployment |
+| 13 | Mon, Oct 5 | [Deployment](https://docs.google.com/presentation/d/126HxCuykIH2cmd1AJPSxXlhiOqHQkGxil-Ys-rxa6UA/edit?usp=sharing) - [Lab Activity](Labs/deployment-howto.md) |
 | 14 | Wed, Oct 7 | [Final Assessment](Assessments/final-assessment.md) |
 
 
