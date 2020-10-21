@@ -12,7 +12,7 @@ This course is designed to introduce students to the Flask web framework. Studen
 
 ## Course Specifics
 
-**Course Delivery**: online | 7 weeks | 14 sessions
+**Course Delivery**: online | 7 weeks | 13 sessions
 
 **Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
 
@@ -28,56 +28,61 @@ By the end of the course, you will be able to ...
 
 ## Schedule
 
-**Course Dates:** Tuesday, June 2 – Thursday, July 16, 2020 (7 weeks)
+**Course Dates (Section A):** Wednesday, October 21 – Wednesday, December 9, 2020 (7 weeks)
+**Course Dates (Section B):** Thursday, October 22 – Thursday, December 10, 2020 (7 weeks)
 
-**Class Times:** Tuesday and Thursday at 2:30–5:20pm (14 class sessions)
+**Class Times (Section A):** Monday and Wednesday at 2:30–5:30pm (13 class sessions)
+**Class Times (Section B):** Tuesday and Thursday at 2:30–5:30pm (13 class sessions)
 
-| Class | Date | Topic(s) |
-| :---: | :--: | :-----: |
-|  1 | Wed, Aug 19 | [Flask Routes & Request/Response](https://docs.google.com/presentation/d/16js-BaSAxfHEYtxYFE6eT_sVcxrEWDRmgcWfGpeMAds/edit?usp=sharing)<br>-AND-<br>[Route Variables](https://docs.google.com/presentation/d/1pkhz8gzwH5u26yKNzEPUYJ4b8gaGEAGXHoec8Ujwk80/edit?usp=sharing) |
-|  2 | Mon, Aug 24 | [Forms](https://docs.google.com/presentation/d/1PFpGhb_UxSdVXXhw6LRtudJQpCRO67jf9gULujAPac0/edit?usp=sharing) |
-|  3 | Wed, Aug 26 | [Templating Variables & Control Structures](https://docs.google.com/presentation/d/1InB_peM6oVlP8rQGJTHiYLmBAX1kXHtT5qCrZfMOpNY/edit?usp=sharing) |
-|  4 | Mon, Aug 31 | [APIs](https://docs.google.com/presentation/d/1l-ZkjvXrNc_HxE9QNSfDGj1PwaWLWVA4XZ1cibpGzow/edit?usp=sharing) |
-|  5 | Wed, Sep 2 | [APIs & JSON](https://docs.google.com/presentation/d/1qQY5vflLAvrQpuqFqJobj5T6-oT81a0A7ekIIRBaV7g/edit?usp=sharing) |
-|  - | Mon, Sep 7 | **NO CLASS** - Labor Day |
-|  6 | Wed, Sep 9 | [Databases - SQL & Relationships](https://docs.google.com/presentation/d/150fozz5lLTh1vMIBT4rMD4c12vBO_4FayOZpDvqRgew/edit?usp=sharing) |
-|  7 | Mon, Sep 14  | [Databases - NoSQL](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing) |
-|  8 | Wed, Sep 16 | [Databases & Flask](https://docs.google.com/presentation/d/1Bp19iANKV_04pqgiasaVXQD-aXBD1kLd69LYmUMJMpI/edit?usp=sharing) |
-|  9 | Mon, Sep 21 | [Databases Review + Lab](https://docs.google.com/presentation/d/1j79hyQw7hLCFLNsqvmNy2szdGd8GOnyWEN9H06EmL1w/edit?usp=sharing) |
-| 10 | Wed, Sep 23 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) |
-| 11 | Mon, Sep 28 | Lab Day |
-| 12 | Wed, Sep 30 | Lab Day |
-| 13 | Mon, Oct 5 | [Deployment](https://docs.google.com/presentation/d/126HxCuykIH2cmd1AJPSxXlhiOqHQkGxil-Ys-rxa6UA/edit?usp=sharing) - [Lab Activity](Labs/deployment-howto.md) |
-| 14 | Wed, Oct 7 | [Final Assessment](Assessments/final-assessment.md) |
+| Class | Section A Date | Section B Date | Topic(s) |
+| :---: | :--: | :--: | :-----: |
+|  1 | Wed, Oct 21 | Thu, Oct 22 | [Flask Routes & Request/Response](https://docs.google.com/presentation/d/16js-BaSAxfHEYtxYFE6eT_sVcxrEWDRmgcWfGpeMAds/edit?usp=sharing)<br>-AND-<br>[Route Variables](https://docs.google.com/presentation/d/1pkhz8gzwH5u26yKNzEPUYJ4b8gaGEAGXHoec8Ujwk80/edit?usp=sharing) |
+|  2 | Mon, Oct 26 | Tue, Oct 27 | [Forms](https://docs.google.com/presentation/d/1PFpGhb_UxSdVXXhw6LRtudJQpCRO67jf9gULujAPac0/edit?usp=sharing) |
+|  3 | Wed, Oct 28 | Thu, Oct 29 | [Templating Variables & Control Structures](https://docs.google.com/presentation/d/1InB_peM6oVlP8rQGJTHiYLmBAX1kXHtT5qCrZfMOpNY/edit?usp=sharing) |
+| - | Mon, Nov 2 | Tue, Nov 3 | **Vote! - Civic Responsibility Break** |
+|  4 | Wed, Nov 4 | Thu, Nov 5 | [APIs](https://docs.google.com/presentation/d/1l-ZkjvXrNc_HxE9QNSfDGj1PwaWLWVA4XZ1cibpGzow/edit?usp=sharing) |
+|  5 | Mon, Nov 9 | Tue, Nov 10 | [APIs & JSON](https://docs.google.com/presentation/d/1qQY5vflLAvrQpuqFqJobj5T6-oT81a0A7ekIIRBaV7g/edit?usp=sharing) |
+|  6 | Mon, Nov 11 | Thu, Nov 12 | Lab Day |
+|  7 | Wed, Nov 16 | Tue, Nov 17 | [Databases - NoSQL](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing) |
+|  8 | Mon, Nov 18 | Thu, Nov 19 | [Databases & Flask](https://docs.google.com/presentation/d/1Bp19iANKV_04pqgiasaVXQD-aXBD1kLd69LYmUMJMpI/edit?usp=sharing) |
+|  9 | Wed, Nov 23 | Tue, Nov 24 | [Databases Review + Lab](https://docs.google.com/presentation/d/1j79hyQw7hLCFLNsqvmNy2szdGd8GOnyWEN9H06EmL1w/edit?usp=sharing) |
+|  - | Wed, Nov 25 | Thu, Nov 26 | **Holiday - Thanksgiving**
+| 10 | Mon, Nov 30 | Tue, Dec 1 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) |
+| 11 | Wed, Dec 2 | Tue, Dec 3 | Lab Day |
+| 12 | Mon, Dec 7 | Tue, Dec 8 | [Deployment](https://docs.google.com/presentation/d/126HxCuykIH2cmd1AJPSxXlhiOqHQkGxil-Ys-rxa6UA/edit?usp=sharing) - [Lab Activity](Labs/deployment-howto.md) |
+| 13 | Wed, Dec 9 | Thu, Dec 10 | [Final Assessment](Assessments/final-assessment.md) |
 
 
 ## Assignments
 
 All assignments are due at **11:59 PM (Midnight)** on the date specified.
 
-| Week | Date | Assignment Due |
+| Topic | Date | Assignment Due |
 | :--: | :--: | :------------: |
-| 1 | Sun, Aug 23 | [Reading 1: Flask for Dummies & Syllabus](https://www.gradescope.com/courses/164855/assignments/603131/) |
-| 1 | Thurs, Aug 27 | [Homework 1: Request/Response](Assignments/01-Request-Response) |
-| 2 | Sun, Aug 30 | [Reading 2: Forms & Templates](https://www.gradescope.com/courses/164855/assignments/612405) |
-| 2 | Thurs, Sep 3 | [Homework 2: Forms & Templates](Assignments/02-Forms-Templates.md) |
-| 3 | Wed, Sep 9 | [Reading 3: RapidAPI](https://www.gradescope.com/courses/164855/assignments/612436) |
-| 3 | Mon, Sep 14 | [Homework 3: APIs](Assignments/03-APIs.md) |
-| 3 | Mon, Sep 14 | [Reading 3.5: Many-to-Many Relationships](https://www.gradescope.com/courses/164855/assignments/658717/)
-| 4 | Wed, Sep 16 | [Reading 4: Flask-PyMongo](https://www.gradescope.com/courses/164855/assignments/670480/) |
-| 4 | Mon, Sep 21 | [Homework 4: Databases](Assignments/04-Databases.md) |
-| 5 | Wed, Sep 23 | [Final Project Proposal](https://www.gradescope.com/courses/164855/assignments/691577) |
-| 5 | Mon, Sep 28 | [Homework 5: Testing](Assignments/05-Testing.md) |
-| 6 | Wed, Sep 30 | TBD |
-| 6 | Mon, Oct 5 | [Final Project](Assignments/06-Final-Project.md) |
-| 7 | Wed, Oct 7 | Project Deployment |
+| 1 | Tue, Oct 27 | Reading 1: Flask for Dummies & Syllabus |
+| 1 | Thu, Oct 29 | [Homework 1: Request/Response](Assignments/01-Request-Response) |
+| 2 | Tue, Nov 3 | Reading 2: Forms & Templates |
+| 2 | Thu, Nov 5 | [Homework 2: Forms & Templates](Assignments/02-Forms-Templates.md) |
+| 3 | Tue, Nov 10 | **Quiz 1** - Route Variables, Forms, & Templates |
+| 3 | Thu, Nov 12 | [Homework 3: APIs](Assignments/03-APIs.md) |
+| 4 | Tue, Nov 17 | Reading 3: Flask-PyMongo |
+| 4 | Thu, Nov 19 | [Homework 4: Databases](Assignments/04-Databases.md) |
+| 5 | Tue, Nov 24 | Final Project Proposal |
+| 5 | Tue, Nov 24 | **Quiz 2** - APIs & Databases
+| 5 | Thu, Dec 3 | [Homework 5: Testing](Assignments/05-Testing.md) |
+| 6 | Tue, Dec 8 | **Quiz 3** - Cumulative |
+| 6 | Thu, Dec 10 | [Final Project](Assignments/06-Final-Project.md) & Project Deployment |
+
+## Class Recordings
+
+All class recordings will be available [here](https://drive.google.com/drive/u/0/folders/1yTKuHP7UxocjmIRa9sMQ0w9q3TfSe8cc) no later than 24 hours after the class session.
 
 ## Evaluation
 
 **To pass this course, you must**: 
 
 - Earn an average score of 2 on the [Course Learning Outcomes Rubric](https://make.sc/web1.1-rubric). Each section's score will be determined by your performance on that week's assignment. The last section's score will be determined by your adherence to deadlines, class participation, & completion of the readings.
-- Pass the Final Assessment.
+- Pass the 3 quizzes by earning an average score of >70%.
 - Abide by the Attendance Policy.
 
 ## Attendance Policy
