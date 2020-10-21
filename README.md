@@ -75,7 +75,7 @@ All assignments are due at **11:59 PM (Midnight)** on the date specified.
 
 ## Class Recordings
 
-All class recordings will be available [here](https://drive.google.com/drive/u/0/folders/1yTKuHP7UxocjmIRa9sMQ0w9q3TfSe8cc) no later than 24 hours after the class session.
+All class recordings will be available [here](https://drive.google.com/drive/u/0/folders/1yTKuHP7UxocjmIRa9sMQ0w9q3TfSe8cc) no later than 24 hours after the class session. For privacy reasons, please do not share the recordings outside of the Make School student body.
 
 ## Evaluation
 
@@ -94,10 +94,6 @@ Each student will be allowed **2 (two) unexcused absences** and **2 (two) excuse
 Every assignment submitted by the deadline will be allowed **one resubmission** after receiving feedback. Late assignments will be accepted, but if you submit an assignment past the deadline, you will not be allowed a resubmission.
 
 If you have an extenuating circumstance such as prolonged illness, please reach out to your instructor to request an extension.
-
-## Class Recordings
-
-TBD
 
 ## Academic Honesty Policy
 
