@@ -36,7 +36,7 @@ By the end of the course, you will be able to ...
 
 | Class | Section A Date | Section B Date | Topic(s) |
 | :---: | :--: | :--: | :-----: |
-|  1 | Wed, Oct 21 | Thu, Oct 22 | [Flask Routes & Request/Response](https://docs.google.com/presentation/d/16js-BaSAxfHEYtxYFE6eT_sVcxrEWDRmgcWfGpeMAds/edit?usp=sharing)<br>-AND-<br>[Route Variables](https://docs.google.com/presentation/d/1pkhz8gzwH5u26yKNzEPUYJ4b8gaGEAGXHoec8Ujwk80/edit?usp=sharing) |
+|  1 | Wed, Oct 21 | Thu, Oct 22 | [Flask Routes & Request/Response](https://docs.google.com/presentation/d/16js-BaSAxfHEYtxYFE6eT_sVcxrEWDRmgcWfGpeMAds/edit?usp=sharing) |
 |  2 | Mon, Oct 26 | Tue, Oct 27 | [Forms](https://docs.google.com/presentation/d/1PFpGhb_UxSdVXXhw6LRtudJQpCRO67jf9gULujAPac0/edit?usp=sharing) |
 |  3 | Wed, Oct 28 | Thu, Oct 29 | [Templating Variables & Control Structures](https://docs.google.com/presentation/d/1InB_peM6oVlP8rQGJTHiYLmBAX1kXHtT5qCrZfMOpNY/edit?usp=sharing) |
 | - | Mon, Nov 2 | Tue, Nov 3 | **Vote! - Civic Responsibility Break** |
