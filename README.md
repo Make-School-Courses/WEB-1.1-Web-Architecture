@@ -50,7 +50,7 @@ By the end of the course, you will be able to ...
 | 10 | Mon, Nov 30 | Tue, Dec 1 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) |
 | 11 | Wed, Dec 2 | Tue, Dec 3 | Lab Day |
 | 12 | Mon, Dec 7 | Tue, Dec 8 | [Deployment](https://docs.google.com/presentation/d/126HxCuykIH2cmd1AJPSxXlhiOqHQkGxil-Ys-rxa6UA/edit?usp=sharing) - [Lab Activity](Labs/deployment-howto.md) |
-| 13 | Wed, Dec 9 | Thu, Dec 10 | [Final Assessment](Assessments/final-assessment.md) |
+| 13 | Wed, Dec 9 | Thu, Dec 10 | Lab Day |
 
 
 ## Assignments
