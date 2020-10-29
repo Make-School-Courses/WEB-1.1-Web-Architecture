@@ -148,6 +148,11 @@ If you need a refresher on how to do this, check out the [Repl.It activity](http
 
 Refactor the `calculator` and `calculator_results` routes to render a template. Any relevant variables should be included in a `context` dictionary as key-value pairs and passed to `render_template`.
 
+
+## Stretch Challenges
+
+**UPDATE 10/29:** The next challenge is no longer required, but I will leave it in as a stretch challenge.
+
 ### Compliments
 
 Take a look at the `compliments` route which displays a form to the user, located in `compliments_form.html`. The form contains:
