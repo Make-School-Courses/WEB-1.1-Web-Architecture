@@ -162,3 +162,32 @@ span.check-for-understanding {
     font-style: italic;
     border-color: #4bb1e4;
 }
+
+
+/*********************************************
+ * SPOILER TAG
+ *********************************************/
+
+ .hover-reveal { 
+    border: 2px dashed #2c3e50;
+    padding: 5px;
+    background-color: #d7ebf5;
+    color: #d7ebf5;
+}
+
+.hover-reveal p > code, .hover-reveal > pre, .hover-reveal p strong, .hover-reveal p em {
+    display: none;
+}
+
+.hover-reveal:hover {
+    background-color: #fff;
+    color: #2c3e50;
+}
+
+.hover-reveal:hover > pre {
+    display: block;
+}
+
+.hover-reveal:hover p code, .hover-reveal:hover p strong, .hover-reveal:hover p em {
+    display: inline;
+}

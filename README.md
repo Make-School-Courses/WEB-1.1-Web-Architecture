@@ -42,10 +42,10 @@ By the end of the course, you will be able to ...
 | - | Mon, Nov 2 | Tue, Nov 3 | **Vote! - Civic Responsibility Break** |
 |  4 | Wed, Nov 4 | Thu, Nov 5 | [APIs](https://docs.google.com/presentation/d/1l-ZkjvXrNc_HxE9QNSfDGj1PwaWLWVA4XZ1cibpGzow/edit?usp=sharing) |
 |  5 | Mon, Nov 9 | Tue, Nov 10 | [APIs & JSON](https://docs.google.com/presentation/d/1qQY5vflLAvrQpuqFqJobj5T6-oT81a0A7ekIIRBaV7g/edit?usp=sharing) |
-|  6 | Mon, Nov 11 | Thu, Nov 12 | Lab Day |
-|  7 | Wed, Nov 16 | Tue, Nov 17 | [Databases - NoSQL](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing) |
-|  8 | Mon, Nov 18 | Thu, Nov 19 | [Databases & Flask](https://docs.google.com/presentation/d/1Bp19iANKV_04pqgiasaVXQD-aXBD1kLd69LYmUMJMpI/edit?usp=sharing) |
-|  9 | Wed, Nov 23 | Tue, Nov 24 | [Databases Review + Lab](https://docs.google.com/presentation/d/1j79hyQw7hLCFLNsqvmNy2szdGd8GOnyWEN9H06EmL1w/edit?usp=sharing) |
+|  6 | Wed, Nov 11 | Thu, Nov 12 | Lab Day |
+|  7 | Mon, Nov 16 | Tue, Nov 17 | [Databases - NoSQL](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing) |
+|  8 | Wed, Nov 18 | Thu, Nov 19 | [Databases & Flask](https://docs.google.com/presentation/d/1Bp19iANKV_04pqgiasaVXQD-aXBD1kLd69LYmUMJMpI/edit?usp=sharing) |
+|  9 | Mon, Nov 23 | Tue, Nov 24 | [Databases Review + Lab](https://docs.google.com/presentation/d/1j79hyQw7hLCFLNsqvmNy2szdGd8GOnyWEN9H06EmL1w/edit?usp=sharing) |
 |  - | Wed, Nov 25 | Thu, Nov 26 | **Holiday - Thanksgiving**
 | 10 | Mon, Nov 30 | Tue, Dec 1 | [Testing 1](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) |
 | 11 | Wed, Dec 2 | Tue, Dec 3 | Lab Day |
@@ -63,7 +63,7 @@ All assignments are due at **11:59 PM (Midnight)** on the date specified.
 | 1 | Thu, Oct 29 | [Homework 1: Request/Response](Assignments/01-Request-Response) |
 | 2 | Tue, Nov 3 | Reading 2: Forms & Templates |
 | 2 | Thu, Nov 5 | [Homework 2: Forms & Templates](Assignments/02-Forms-Templates.md) |
-| 3 | Tue, Nov 10 | **Quiz 1** - Route Variables, Forms, & Templates |
+| 3 | Tue, Nov 10 | [**Quiz 1**](Assessments/quiz-1-study-guide.md) - Route Variables, Forms, & Templates |
 | 3 | Thu, Nov 12 | [Homework 3: APIs](Assignments/03-APIs.md) |
 | 4 | Tue, Nov 17 | Reading 3: Flask-PyMongo |
 | 4 | Thu, Nov 19 | [Homework 4: Databases](Assignments/04-Databases.md) |
