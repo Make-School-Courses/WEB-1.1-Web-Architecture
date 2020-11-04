@@ -64,14 +64,14 @@ All assignments are due at **11:59 PM (Midnight)** on the date specified.
 | 2 | Tue, Nov 3 | Reading 2: Forms & Templates |
 | 2 | Thu, Nov 5 | [Homework 2: Forms & Templates](Assignments/02-Forms-Templates.md) |
 | 3 | Tue, Nov 10 | [**Quiz 1**](Assessments/quiz-1-study-guide.md) - Route Variables, Forms, & Templates |
-| 3 | Thu, Nov 12 | [Homework 3: APIs](Assignments/03-APIs.md) |
+| 3 | Thu, Nov 12 | [Homework 3: More Forms](Assignments/03-More-Forms.md) |
 | 4 | Tue, Nov 17 | Reading 3: Flask-PyMongo |
-| 4 | Thu, Nov 19 | [Homework 4: Databases](Assignments/04-Databases.md) |
+| 4 | Thu, Nov 19 | [Homework 4: APIs](Assignments/03-APIs.md) |
 | 5 | Tue, Nov 24 | Final Project Proposal |
 | 5 | Tue, Nov 24 | **Quiz 2** - APIs & Databases
-| 5 | Thu, Dec 3 | [Homework 5: Testing](Assignments/05-Testing.md) |
+| 5 | Thu, Dec 3 | [Homework 5: Databases](Assignments/04-Databases.md) |
 | 6 | Tue, Dec 8 | **Quiz 3** - Cumulative |
-| 6 | Thu, Dec 10 | [Final Project](Assignments/06-Final-Project.md) & Project Deployment |
+| 6 | Thu, Dec 10 | [Homework 6: Testing](Assignments/05-Testing.md) & Project Deployment |
 
 ## Class Recordings
 
