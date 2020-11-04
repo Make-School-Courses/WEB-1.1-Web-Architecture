@@ -40,9 +40,9 @@ By the end of the course, you will be able to ...
 |  2 | Mon, Oct 26 | Tue, Oct 27 | [Forms](https://docs.google.com/presentation/d/1PFpGhb_UxSdVXXhw6LRtudJQpCRO67jf9gULujAPac0/edit?usp=sharing) |
 |  3 | Wed, Oct 28 | Thu, Oct 29 | [Templating Variables & Control Structures](https://docs.google.com/presentation/d/1InB_peM6oVlP8rQGJTHiYLmBAX1kXHtT5qCrZfMOpNY/edit?usp=sharing) |
 | - | Mon, Nov 2 | Tue, Nov 3 | **Vote! - Civic Responsibility Break** |
-|  4 | Wed, Nov 4 | Thu, Nov 5 | [APIs](https://docs.google.com/presentation/d/1l-ZkjvXrNc_HxE9QNSfDGj1PwaWLWVA4XZ1cibpGzow/edit?usp=sharing) |
-|  5 | Mon, Nov 9 | Tue, Nov 10 | [APIs & JSON](https://docs.google.com/presentation/d/1qQY5vflLAvrQpuqFqJobj5T6-oT81a0A7ekIIRBaV7g/edit?usp=sharing) |
-|  6 | Wed, Nov 11 | Thu, Nov 12 | Lab Day |
+|  4 | Wed, Nov 4 | Thu, Nov 5 | [More Templates](https://docs.google.com/presentation/d/11eqp8KYF54yWkq7-AGoU9PhJIb_3iCm2f36qUh47U-c/edit) |
+|  5 | Mon, Nov 9 | Tue, Nov 10 | [APIs](https://docs.google.com/presentation/d/1l-ZkjvXrNc_HxE9QNSfDGj1PwaWLWVA4XZ1cibpGzow/edit?usp=sharing) |
+|  6 | Wed, Nov 11 | Thu, Nov 12 | [APIs & JSON](https://docs.google.com/presentation/d/1qQY5vflLAvrQpuqFqJobj5T6-oT81a0A7ekIIRBaV7g/edit?usp=sharing) |
 |  7 | Mon, Nov 16 | Tue, Nov 17 | [Databases - NoSQL](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing) |
 |  8 | Wed, Nov 18 | Thu, Nov 19 | [Databases & Flask](https://docs.google.com/presentation/d/1Bp19iANKV_04pqgiasaVXQD-aXBD1kLd69LYmUMJMpI/edit?usp=sharing) |
 |  9 | Mon, Nov 23 | Tue, Nov 24 | [Databases Review + Lab](https://docs.google.com/presentation/d/1j79hyQw7hLCFLNsqvmNy2szdGd8GOnyWEN9H06EmL1w/edit?usp=sharing) |
