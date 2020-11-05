@@ -103,10 +103,11 @@ Stretch challenges:
 
 Take a look at the `gif_search` route and `gif_search.html`. This will be our first foray into making API calls! For this one, we'll be using the Tenor API to search for GIFs based on a search query, then displaying the resulting GIFs.
 
-Complete the `TODO`s in the `gif_search` route to:
+Complete the `TODO`s in the `gif_search` route and `gif_search.html` to:
 
 - Get the search query & number of GIFs requested by the user
 - Add the request parameters to your request for the search query, key, & number of GIFs
+- Display each GIF in an `img` tag
 
 Once that is completed, the GIFs should be displayed on the resulting page. There isn't too much to do here! However, to make sure you understand the route, uncomment the print statement (under "Uncomment me") to see the API call results. Make sure you understand how those results are put onto the page in `gif_search.html`! In the next assignment, we'll be using API results more extensively.
 
