@@ -36,10 +36,11 @@ git push -u origin master
 
 Refresh the page in your newly-created GitHub repo to make sure your changes were successfully pushed.
 
-Finally, for this assignment, you'll need to install the Pillow library:
+Finally, for this assignment, you'll need to install the Pillow and Requests libraries:
 
 ```
 pip3 install pillow
+pip3 install requests
 ```
 
 ## Instructions
