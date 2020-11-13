@@ -23,10 +23,10 @@ There's quite a lot of setup for this assignment! I've broken it down into a few
 
 If you haven't yet, create a folder to contain your work for this course. If you put it in the `/dev/courses` folder, then the full path would be something like `/dev/courses/web1.1`.
 
-In a terminal window, navigate to your newly created folder and clone the [starter code](https://github.com/Make-School-Labs/WEB-1.1-Homework-4-Starter):
+In a terminal window, navigate to your newly created folder and clone the [starter code](https://github.com/Make-School-Labs/WEB-1.1-Homework-4-APIs-Starter):
 
 ```
-$ git clone git@github.com:Make-School-Labs/WEB-1.1-Homework-4-Starter.git Homework-4-APIs
+$ git clone git@github.com:Make-School-Labs/WEB-1.1-Homework-4-APIs-Starter.git Homework-4-APIs
 ```
 
 Next, go to [GitHub.com](https://github.com) and create a new repository for your project. **IMPORTANT: Make sure the box for "Initialize with a README" is NOT checked**. Then, run the following commands to push your starter code to GitHub:
