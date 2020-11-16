@@ -16,7 +16,7 @@ You should be able to...
 
 **Part 1**: I am developing a site to search for your favorite media (books, movies, and TV) and write reviews. My code so far for the form looks like this:
 
-```py
+```html
 <form action="/search" method="GET">
     What media would you like to search for?
     <input type="text" name="search_query"><br>
@@ -129,3 +129,4 @@ No tasks for now!
 ```
 
 We use the `{% if %}` block to show a block of HTML conditionally, if there is at least one task. Then, to show a bullet point for each task, use the `{% for %}` block. We are **iterating over** the `tasks` variable which was passed in from the route, and creating the `task_item` loop variable which we can use to display each task.
+</div>
