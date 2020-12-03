@@ -70,7 +70,7 @@ All assignments are due at **11:59 PM (Midnight)** on the date specified.
 | 5 | Tue, Nov 24 | [**Quiz 2**](Assessments/quiz-2-study-guide.md) - APIs
 | 5 | Thu, Dec 3 | [Homework 5: Databases](Assignments/04-Databases.md) |
 | 6 | Thu, Dec 10 | [Homework 6: Testing](Assignments/05-Testing.md) & Project Deployment |
-| 6 | Thu, Dec 10 | **Quiz 3** - Databases / Cumulative |
+| 6 | Thu, Dec 10 | [**Quiz 3**](Assessments/quiz-3-study-guide.md) - Databases / Cumulative |
 
 ## Class Recordings
 
