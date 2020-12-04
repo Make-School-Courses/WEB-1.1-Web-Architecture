@@ -14,10 +14,13 @@
 - **Homework Assignments**
   - [Homework 1: Request/Response](Assignments/01-Request-Response)
   - [Homework 2: Forms & Templates](Assignments/02-Forms-Templates.md)
-  - [Homework 3: APIs](Assignments/03-APIs.md)
-  - [Homework 4: Databases](Assignments/04-Databases.md)
-  - [Homework 5: Testing](Assignments/05-Testing.md)
+  - [Homework 3: More Forms](Assignments/03-More-Forms.md)
+  - [Homework 4: APIs](Assignments/03-APIs.md)
+  - [Homework 5: Databases](Assignments/04-Databases.md)
+  - [Homework 6: Testing](Assignments/05-Testing.md)
   - Final Project
 
 - **Assessments**
-  - TBD
+  - [Quiz 1](Assessments/quiz-1-study-guide.md)
+  - [Quiz 2](Assessments/quiz-2-study-guide.md)
+  - [Quiz 3](Assessments/quiz-3-study-guide.md)
