@@ -48,7 +48,7 @@ By the end of the course, you will be able to ...
 |  9 | Mon, Nov 23 | Tue, Nov 24 | [Databases & Flask](https://docs.google.com/presentation/d/1Bp19iANKV_04pqgiasaVXQD-aXBD1kLd69LYmUMJMpI/edit?usp=sharing) |
 |  - | Wed, Nov 25 | Thu, Nov 26 | **Holiday - Thanksgiving**
 | 10 | Mon, Nov 30 | Tue, Dec 1 | [Databases Review + Lab](https://docs.google.com/presentation/d/1j79hyQw7hLCFLNsqvmNy2szdGd8GOnyWEN9H06EmL1w/edit?usp=sharing) |
-| 11 | Wed, Dec 2 | Tue, Dec 3 | [Testing](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) |
+| 11 | Wed, Dec 2 | Tue, Dec 3 | **[OPTIONAL]** [Testing](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) |
 | 12 | Mon, Dec 7 | Tue, Dec 8 | [Deployment](https://docs.google.com/presentation/d/126HxCuykIH2cmd1AJPSxXlhiOqHQkGxil-Ys-rxa6UA/edit?usp=sharing) - [Lab Activity](Labs/deployment-howto.md) |
 | 13 | Wed, Dec 9 | Thu, Dec 10 | Lab Day |
 

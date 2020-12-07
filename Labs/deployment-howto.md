@@ -111,31 +111,61 @@ heroku logs --tail
 
 What error are we seeing in heroku now? What do we need to do?
 
-## Adding a Production Database
+## Adding a Production Database with MongoDB Atlas
 
-It looks like the error is that we cannot connect to our mongodb database. That's because it is looking at the `'mongodb://localhost:27017'` URI, but that is running on our local computer and Heroku, which is remote, doesn't have access to that. So we have to add a mongodb heroku add-on called mLabs.
+It looks like the error is that we cannot connect to our mongodb database. That's because it is looking at the `'mongodb://localhost:27017'` URI, but that is running on our local computer and Heroku, which is remote, doesn't have access to that. So we have to switch to MongoDB Atlas.
 
-Add `mLabs`:
+If you haven't yet, follow the steps in [this tutorial](https://docs.atlas.mongodb.com/getting-started/) to set up a MongoDB Atlas cluster. Make sure to create a database user with username & password!
 
-```bash
-heroku addons:create mongolab:sandbox
-```
+Then, go to the `Clusters` page and click on `Connect`, followed by `Connect your application`:
 
-Then, we have to point to this production mongodb database URI in our `app.py` file. We'll use `os.environ.get` to get the `MONGODB_URI` environment variable.
+<img src="Labs/Assets/atlas-connect.png" width="100%">
 
-Update `app.py` to point to the mongodb URI if it exists:
+Make sure to select the driver of `Python`, version `3.11 or later`, and click the checkbox for `Include full driver code example`. Then click the `Copy` button to copy the code:
+
+<img src="Labs/Assets/atlas-copy-code.png" width="80%">
+
+Then, copy that into your application's `app.py` file. If your application already has database setup code, replace it with the new code. Make sure to swap out the username, password, and DB name as in the following code example!
+
+Your MongoDB connection code should look something like:
 
 ```py
-# Add the following import
-import os
+from pymongo import MongoClient
+from dotenv import load_dotenv
 
-# Update your setup code
-host = os.environ.get('MONGODB_URI', 'mongodb://localhost:27017/databaseName') + "?retryWrites=false"
-app.config["MONGO_URI"] = host
-mongo = PyMongo(app)
+# Set up environment variables & constants
+load_dotenv()
+MONGODB_USERNAME = os.getenv('MONGODB_USERNAME')
+MONGODB_PASSWORD = os.getenv('MONGODB_PASSWORD')
+MONGODB_DBNAME = 'mydb'
+
+app = Flask(__name__)
+
+client = MongoClient(f"mongodb+srv://{MONGODB_USERNAME}:{MONGODB_PASSWORD}@cluster0.idqxn.mongodb.net/{MONGODB_DBNAME}?retryWrites=true&w=majority")
+db = client[MONGODB_DBNAME]
 ```
 
-Make sure to update the `databaseName` to your own database name!!!
+Then, make sure to add the following lines to your `.env` file with your database user's username and password (or create the file, if it doesn't exist yet):
+
+```
+MONGODB_USERNAME=yourusernamegoeshere
+MONGODB_PASSWORD=yourpasswordgoeshere
+```
+
+After you update your code, you will need to add the `pymongo`, `python-dotenv`, and `dnspython` packages to your `requirements.txt` file as well.
+
+Now we just need to tell Heroku about these environment variables! In your terminal, enter the following, making sure to use your **actual** username and password:
+
+```bash
+heroku config:set MONGODB_USERNAME=yourusernamegoeshere
+heroku config:set MONGODB_PASSWORD=yourpasswordgoeshere
+```
+
+Then, verify that these have been added by running:
+
+```bash
+heroku config
+```
 
 Next, follow the steps again to `git add`, `git commit`, and `git push heroku master` to ensure that our changes are reflected in Heroku.
 
