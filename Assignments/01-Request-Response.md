@@ -98,15 +98,8 @@ You should see something like this in your Terminal output:
 
 Go to the URL [http://localhost:5000](http://localhost:5000) and check out your cool new webpage!!
 
-### Your Favorite Animal _(Required)_
 
-Now that we've got a Hello World under our belts, let's try something more complicated! Usually, when you build a website, it doesn't consist of just one page - it has _many_ pages. Let's practice creating another!
-
-For my website, I want to show off my favorite animal. **Create a route** for the URL `/penguins` and have it show the text `"Penguins are cute!"`. (**HINT**: To pass the tests, make sure that your text matches exactly.)
-
-Now, try writing another route to show off _your_ favorite animal. Make sure to test your app in the browser to make sure it works!
-
-## Your User's Favorite Animal _(Tutorial)_
+### Your User's Favorite Animal _(Tutorial)_
 
 Writing a website isn't just about showing off your own interests - it's also about keeping your users happy! Let's make a route where the _user_ can type in their favorite animal - regardless of what it might be - and get a response.
 
@@ -130,15 +123,15 @@ Now, try it out! Try typing `localhost:5000/animal/zebra` into your browser and 
 Wow, zebra is my favorite animal, too!
 ```
 
-### Your User's Favorite Dessert _(Required)_
+### Your User's Favorite Dessert
 
 Now that we've gotten the hang of route variables, let's try another. Write a route `favorite_dessert` for the URL `/dessert/<users_dessert>`. If I visit the URL `/dessert/donuts`, I should see the text: `How did you know I liked donuts?`
 
-### Mad Libs _(Required)_
+### Mad Libs
 
 Write a route for the URL `/madlibs/<adjective>/<noun>` which takes in 2 strings and displays a funny (but work-appropriate) story using them!
 
-### Multiply 2 Numbers _(Required)_
+### Multiply 2 Numbers
 
 Next, let's try a more challenging one. Write a route `multiply` that takes in 2 numbers, multiplies them, and displays the results. It should use the URL `/multiply/<number1>/<number2>`, then take in `number1` and `number2` as parameters.
 
@@ -149,12 +142,6 @@ Write the rest of the route function, as follows:
 **HINT 1**: We can check whether a particular string contains only numbers by using the [isdigit()](https://www.w3schools.com/python/ref_string_isdigit.asp) method, which returns a boolean (`True` or `False`).
 
 **HINT 2**: All route variables are of type `string`, which means you'll need to cast them as integers in order to do the multiplication. You can do so using the built-in [int()](https://www.freecodecamp.org/news/how-to-convert-strings-into-integers-in-python/) method.
-
-## Stretch Challenges
-
-The following exercises are **stretch challenges**, which means that while they aren't strictly required for this assignment, they are _highly encouraged_! Please do not attempt these until you've finished the core challenges.
-
-If you have, then carry on!
 
 ### Say N Times
 
@@ -167,25 +154,6 @@ Write a route, `sayntimes`, that will repeat a string a given number of times. I
 **HINT**: Use a for loop to add up lots of small strings into one large string!
 
 Try out your route in the browser! What happens when you use a very large number (e.g. `1000000`)?
-
-### Reverse a String
-
-Write a route, `reverse`, that takes in a string and outputs the string backwards, i.e. with the characters in reverse order:
-
-- If I go to the URL `/reverse/hello`, I should see the result: `elloh`
-
-**HINT**: Use a for loop to loop over each character in the string, starting at the end; add each one to a result string as you go.
-
-### Strange Caps
-
-Write a route `strangecaps` that will output a given word in "strange caps", that is, alternating lowercase and uppercase letters:
-
-- If I go to the URL `/strangecaps/hello`, I should see the result: `hElLo`
-- If I go to the URL `/strangecaps/goodbye`, I should see the result: `gOoDbYe`
-
-**HINT 1**: You can use a for loop to iterate over each character in a string, just like you would with a list.
-
-**HINT 2**: You can use the string methods [upper()](https://www.w3schools.com/python/ref_string_upper.asp) and [lower()](https://www.w3schools.com/python/ref_string_lower.asp) to transform a given string into all uppercase or lowercase letters. You'll want to call these methods on just one letter at a time.
 
 ### Dice Game
 
@@ -214,7 +182,7 @@ $ pytest
 If you'd like to run just a single test, you can run:
 
 ```bash
-$ pytest -k 'test_penguins'
+$ pytest -k 'test_dicegame'
 ```
 
 To see what tests are available to run, open the `test_app.py` file in your starter code and take a look!

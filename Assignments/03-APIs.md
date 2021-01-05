@@ -106,15 +106,11 @@ It may be helpful to read over the API documentation for the [current weather en
 
 Also, you may want to review the [requests Quick Start Guide](https://requests.readthedocs.io/en/master/user/quickstart/) if you're having trouble understanding how the API call is being made or how the data is being passed.
 
-## Part 2: Historical Weather Data
+## Part 2: Comparing Two Cities
 
-Open up the `app.py` file in your starter code. Complete the `TODO`s in the `historical_results()` route to retrieve the user's choices, construct the API query parameters, check the results of the API call, and pass the resulting data to the client.
+Take a look at the `comparison_results.html` file. You will need to complete the TODOs to compare two cities.
 
-Then, open the `historical_results.html` file and complete the TODOs to show the resulting data.
-
-If you pass the data through correctly, you should see a nifty line chart showing how the temperature changed over the course of the day! No need to edit the code in the `graph()` route, but you may want to read it over to understand how it works.
-
-It may be helpful to read over the API documentation for the [historical weather endpoint](https://openweathermap.org/api/one-call-api) (scroll down to the "Historical weather data" section).
+The `comparison_results` route gives a bit less guidance on how to proceed, but by now, you should have a good understanding on how to make these API calls! See if you can use the hints to make your code more elegant and efficient.
 
 ## Stretch Challenges
 
@@ -122,17 +118,12 @@ Complete one or more of the following stretch challenges and demonstrate a highe
 
 These are all just ideas - feel free to riff off of these to create your own stretch challenges!
 
-### Weather Forecast Data
-
-Currently, our app only displays current and historical weather data. Add another form to the homepage for the user to choose a city, day in the future, and desired units. Then add another route, `forecast_results()`, to make an API call and display the forecasted weather data.
-
-You can use the API docs [here](https://openweathermap.org/api/hourly-forecast) to get started. Note that you can only request weather data for up to 4 days in the future.
 
 ### Show an Icon
 
 The API data returned from OpenWeatherMaps includes an "icon" field that we can use to show an image of the current weather conditions (e.g. sunny, cloudy, rainy, etc). See [here](https://openweathermap.org/weather-conditions) for a list of weather conditions and their corresponding icons.
 
-Modify the `results.html` and/or `historical_results.html` pages to show an icon image for that day's weather conditions.
+Modify the `results.html` and/or `comparison_results.html` pages to show an icon image for that day's weather conditions.
 
 ### Error Handling
 
@@ -140,11 +131,7 @@ Currently, the app doesn't have any error handling, so if the user enters a city
 
 ### Style Level Up
 
-The styling in the `results.html` and `historical_results.html` files is kind of plain - the weather conditions are just shown in bullet points. See if you can add to the styles in `static/style.css` to improve on it!
-
-### Graphs Level Up
-
-Currently, the hourly weather graph shown on the "Historical Weather" page is rendered using Matplotlib. See if you can use the [D3.js](https://datawanderings.com/2019/10/28/tutorial-making-a-line-chart-in-d3-js-v-5/) JavaScript library to render a line chart to show the data on the client side. It may be easiest to make a separate API call within your JavaScript code to retrieve the hourly data.
+The styling in the `results.html` and `comparison_results.html` files is kind of plain - the weather conditions are just shown in bullet points. See if you can add to the styles in `static/style.css` to improve on it!
 
 ## Submission
 

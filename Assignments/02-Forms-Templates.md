@@ -149,27 +149,21 @@ If you need a refresher on how to do this, check out the [Repl.It activity](http
 Refactor the `calculator` and `calculator_results` routes to render a template. Any relevant variables should be included in a `context` dictionary as key-value pairs and passed to `render_template`.
 
 
-## Stretch Challenges
+### Horoscope
 
-**UPDATE 10/29:** The next challenge is no longer required, but I will leave it in as a stretch challenge.
-
-### Compliments
-
-Take a look at the `compliments` route which displays a form to the user, located in `compliments_form.html`. The form contains:
+Take a look at the `horoscope_form` route which displays a form to the user, located in `horoscope_form.html`. The form contains:
 
 - A text box for the user's name
-- A checkbox for choosing whether the user wants compliments (yes/no)
-- A dropdown for choosing how many compliments the user would like
+- A dropdown for choosing when they were born, with each option corresponding to a horoscope sign
 
-Complete the `compliments_results` route to:
+Complete the `horoscope_results` route to:
 
 - Greet the user by name
-- Only show them compliments if the checkbox was checked
-- Show a randomly chosen list of compliments, according to how many the user requested, each in its own separate bullet point
+- Show them their horoscope sign, as well as their personality according to the `HOROSCOPE_PERSONALITIES` dictionary
+- Show them their lucky number (generated randomly from 1 to 99)
 
-**HINT 1**: You can use the [random.sample()](https://www.w3schools.com/python/ref_random_sample.asp) method to choose a randomly generated subset of a list.
+**HINT**: You can use the Python `random` library method [randint()](https://www.w3schools.com/python/ref_random_randint.asp) to generate a random number from 1 to 99.
 
-**HINT 2**: Use the `<ul>` (unordered list) and `<li>` (list item) tags to create bullet points. You'll need to use a for loop to cycle through the list of compliments!
 
 ## Testing
 
