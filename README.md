@@ -6,6 +6,12 @@
 
 This course is designed to introduce students to the Flask web framework. Students will learn language independent patterns that are repeated across many common servers. The course will cover topics including the request-response cycle, server-side templating, APIs, databases, & unit testing, to help students to build the skills necessary to create custom web sites.
 
+This course covers language-independent web server frameworks and patterns in full-stack web design. Students will use their prior knowledge in HTML, CSS, and JavaScript to build the front-end of a simple web application, and then will learn new concepts to write a supporting back-end. This course covers the request-response cycle, server-side templating, parsing data from an HTML form, HTTP methods, and using APIs. More advanced concepts include document-based databases and controller testing. Prerequisite
+
+### 👉 [ Introduction to WEB 1.1 (Web Architecture)](https://www.notion.so/makeschool/Introduction-to-WEB-1-1-Web-Architecture-44bea79b8e8245b8b61b364f8348569e) 🚀
+
+
+
 ## Prerequisites:
 
 1. WEB 1.0 (Web Foundations)
@@ -25,56 +31,103 @@ By the end of the course, you will be able to ...
 1. Make API calls & use/analyze the JSON data to show a result to the user.
 1. Read and write to the MongoDB database using the PyMongo Object Document Mapper (ODM).
 1. Implement Flask route tests to verify the correctness of routes.
+1. Understand how the “create, read, update, deletion” (C.R.U.D) operations form the basis of user interactions in web architecture.
+
+## Learning Modules
+
+This course has been broken down into 5 modules for students to approach at their own pace. See the **schedule** below for recommendations on where you should be at in terms of content completion to help assess your pace.
+
+##### Although this course has self-pacing elements--attendance is still a requirement! We will be doing activites, checking-in, and learning as a class!
+
+#### MODULE 1: [ Introduction to internet communication patterns, C.R.U.D, and servers](https://www.notion.so/makeschool/MODULE-1-Introduction-to-internet-communication-patterns-C-R-U-D-and-servers-7238735fb1ec46a1af69c9585a87d34d) 
+
+1. [Introduction to the Request/Response Cycle](https://www.notion.so/makeschool/Introduction-to-the-Request-Response-Cycle-b4f79a60f14044fe89e5765729c57534)
+2. [Setting up and Using Flask Servers](https://www.notion.so/makeschool/Setting-up-and-Using-Flask-Servers-676ae2ed51db414d8605265ab1dbf1cb)
+3. [Introduction to C.R.U.D](https://www.notion.so/makeschool/Introduction-to-C-R-U-D-6721ed692d5b4eaab2fa4a42b69c525e)
+4. [`GET` vs `POST`](https://www.notion.so/makeschool/GET-vs-POST-10a1f44eb63141ebafe614960ba9a310)
+5. [Working with Route Variables and Forms](https://www.notion.so/makeschool/Working-with-Route-Variables-and-Forms-989a154e9723449986ee188ee42b45d8)
+6. [Interacting with Form Data in Flask](https://www.notion.so/makeschool/Interacting-with-Form-Data-in-Flask-0961ad39ea924109bb478b25e6f98f48)
+7. [Understanding `**args` and `**kwargs`](https://www.notion.so/makeschool/Understanding-args-and-kwargs-77df2ff437dc4f0a9f57aa99610c6dcb)
+
+#### MODULE 2: [ Creating scalable web applications and templating](https://www.notion.so/makeschool/MODULE-2-Creating-scalable-web-applications-and-templating-f952b99874f44ed7a886609ec4ecbd6c)
+
+1. [Templating](https://www.notion.so/makeschool/Templating-3d4e522e057643169a3af209bea33b77)
+2. [Named Parameters](https://www.notion.so/makeschool/Named-Parameters-e86280fd4a7a488eb9494a7de93288a2)
+3. [Conditional Rendering with Templates](https://www.notion.so/makeschool/Conditional-Rendering-with-Templates-1d02a420605b4ecc9e999e9f9acdd03d)
+4. [Loops in Templates](https://www.notion.so/makeschool/Loops-in-Templates-0350470fb2d349f29fe2af77546e5dd0)
+5. [Creating Reusable Components via Template Inheritance](https://www.notion.so/makeschool/Creating-Reusable-Components-via-Template-Inheritance-816309fd9b084509a183a05ca22b4c79)
+
+
+#### MODULE 3: [ Building robust services that connect to platforms via API's ](https://www.notion.so/makeschool/MODULE-3-Building-robust-services-that-connect-to-platforms-via-API-s-886ab4e636574ebca8e6e157ee8bf82b)
+1. [Introduction to APIs](https://www.notion.so/makeschool/Introduction-to-APIs-cb1db95de4c24fdfbbdf9be49d4c201e)
+2. [C.R.U.D in API's](https://www.notion.so/makeschool/C-R-U-D-in-API-s-d0478a7c928946b881fa62af058b22cb)
+3. [Working with JSON Objects](https://www.notion.so/makeschool/Working-with-JSON-Objects-f95e153725f042a69bd06224f116d8b2)
+4. [Testing API Routes with Postman](https://www.notion.so/makeschool/Testing-API-Routes-with-Postman-2c3abe212a424d3682bd94fc3724e180)
+5. [Using the Requests Library to Generate User Requests](https://www.notion.so/makeschool/Using-the-Requests-Library-to-Generate-User-Requests-3c5c50b0fc374eb88708bb312a9a1def)
+
+
+#### MODULE 4: [ Developing secure and distributable web applications](https://www.notion.so/makeschool/MODULE-4-Developing-secure-and-distributable-web-applications-bcc343ed1483406e8bb928ebf223e19c)
+1. [Working with Virtual Environments and the `requirements.txt` File](https://www.notion.so/makeschool/Working-with-Virtual-Environments-and-the-requirements-txt-File-6dc8b6d6b8924d8db65db60eec68dfcc)
+2. [Creating and Managing Environment Variables with `dotenv`](https://www.notion.so/makeschool/Creating-and-Managing-Environment-Variables-with-dotenv-ddb6aa5630fe464c884cfc1a75af9c2f)
+3. [Leveraging the Datetime Library](https://www.notion.so/makeschool/Leveraging-the-Datetime-Library-c02959f8f3cc45b19e6582c215ed85d0)
+
+#### MODULE 5: [ Introduction to databases and connecting servers to them ](https://www.notion.so/makeschool/MODULE-5-Introduction-to-databases-and-connecting-servers-to-them-ec864dcc497e44339ebb35381eb325a3)
+1. [Introduction to Databases](https://www.notion.so/makeschool/Introduction-to-Databases-601c42c9732e46d595dd2c65a4186253)
+2. [SQL vs NoSQL and Introduction to MongoDB](https://www.notion.so/makeschool/SQL-vs-NoSQL-and-Introduction-to-MongoDB-782a225705ad418d8c1af422c9c57083)
+3. [Connecting a Flask Server to MongoDB Cluster](https://www.notion.so/makeschool/Connecting-a-Flask-Server-to-MongoDB-Cluster-6385c238c38f433f9babc5e85fb67082)
+4. [Performing C.R.U.D Operations with PyMongo](https://www.notion.so/makeschool/Performing-C-R-U-D-Operations-with-PyMongo-0689895c65b24873b429423f14bacfa9)
+
 
 ## Schedule
 
-**Course Dates (Section A):** Wednesday, October 21 – Wednesday, December 9, 2020 (7 weeks)
-**Course Dates (Section B):** Thursday, October 22 – Thursday, December 10, 2020 (7 weeks)
+**Course Dates (Section A):** Monday, January 19 - Wednesday, March 3rd 2020 (7 weeks)
+**Course Dates (Section B):** Tuesday, January 19 - Thursday, March 4th 2020 (7 weeks)
 
 **Class Times (Section A):** Monday and Wednesday at 2:30–5:30pm (13 class sessions)
 **Class Times (Section B):** Tuesday and Thursday at 2:30–5:30pm (13 class sessions)
 
-| Class | Section A Date | Section B Date | Topic(s) |
+| Class | Section A Date | Section B Date | Pacing Recommendations (Complete all lessons up to - ) |
 | :---: | :--: | :--: | :-----: |
-|  1 | Wed, Oct 21 | Thu, Oct 22 | [Flask Routes & Request/Response](https://docs.google.com/presentation/d/16js-BaSAxfHEYtxYFE6eT_sVcxrEWDRmgcWfGpeMAds/edit?usp=sharing) |
-|  2 | Mon, Oct 26 | Tue, Oct 27 | [Forms](https://docs.google.com/presentation/d/1PFpGhb_UxSdVXXhw6LRtudJQpCRO67jf9gULujAPac0/edit?usp=sharing) |
-|  3 | Wed, Oct 28 | Thu, Oct 29 | [Templating Variables & Control Structures](https://docs.google.com/presentation/d/1InB_peM6oVlP8rQGJTHiYLmBAX1kXHtT5qCrZfMOpNY/edit?usp=sharing) |
-| - | Mon, Nov 2 | Tue, Nov 3 | **Vote! - Civic Responsibility Break** |
-|  4 | Wed, Nov 4 | Thu, Nov 5 | [More Templates](https://docs.google.com/presentation/d/11eqp8KYF54yWkq7-AGoU9PhJIb_3iCm2f36qUh47U-c/edit) |
-|  5 | Mon, Nov 9 | Tue, Nov 10 | [APIs](https://docs.google.com/presentation/d/1l-ZkjvXrNc_HxE9QNSfDGj1PwaWLWVA4XZ1cibpGzow/edit?usp=sharing) |
-|  6 | Wed, Nov 11 | Thu, Nov 12 | [APIs & JSON](https://docs.google.com/presentation/d/1tHX4Akk_UkhmO8bIAlsWxlFa91BwvzYzVMu4TibjfFA/edit?usp=sharing) |
-|  7 | Mon, Nov 16 | Tue, Nov 17 | [APIs Bonus Topics](https://docs.google.com/presentation/d/1qQY5vflLAvrQpuqFqJobj5T6-oT81a0A7ekIIRBaV7g/edit?usp=sharing) |
-|  8 | Wed, Nov 18 | Thu, Nov 19 | [Databases - NoSQL](https://docs.google.com/presentation/d/1-mFbp_1MUiwY3YonpINV1r4tMrU08wWCXOHam2f5Vzo/edit?usp=sharing) |
-|  9 | Mon, Nov 23 | Tue, Nov 24 | [Databases & Flask](https://docs.google.com/presentation/d/1Bp19iANKV_04pqgiasaVXQD-aXBD1kLd69LYmUMJMpI/edit?usp=sharing) |
-|  - | Wed, Nov 25 | Thu, Nov 26 | **Holiday - Thanksgiving**
-| 10 | Mon, Nov 30 | Tue, Dec 1 | [Databases Review + Lab](https://docs.google.com/presentation/d/1j79hyQw7hLCFLNsqvmNy2szdGd8GOnyWEN9H06EmL1w/edit?usp=sharing) |
-| 11 | Wed, Dec 2 | Tue, Dec 3 | **[OPTIONAL]** [Testing](https://docs.google.com/presentation/d/15UIW0NE1QFN_YM_5o796RBM0sj4stmUlAG9h2qo379A/edit?usp=sharing) |
-| 12 | Mon, Dec 7 | Tue, Dec 8 | [Deployment](https://docs.google.com/presentation/d/126HxCuykIH2cmd1AJPSxXlhiOqHQkGxil-Ys-rxa6UA/edit?usp=sharing) - [Lab Activity](Labs/deployment-howto.md) |
-| 13 | Wed, Dec 9 | Thu, Dec 10 | Lab Day |
+| - | Mon, Jan 18 | Tue, Jan 19 | **No Class - MLK Day** |
+|  1 | Wed, Jan 20 | Thu, Jan 21 | [`GET` vs `POST`](https://www.notion.so/makeschool/GET-vs-POST-10a1f44eb63141ebafe614960ba9a310) |
+|  2 | Mon, Jan 25 | Tue, Jan 26 | Finished Module 1 Assignment  |
+|  3 | Wed, Jan 27 | Thu, Jan 28 | [Conditional Rendering with Templates](https://www.notion.so/makeschool/Conditional-Rendering-with-Templates-1d02a420605b4ecc9e999e9f9acdd03d)|
+|  4 | Mon, Feb 1 | Tue, Feb 2 | Finished Module 2 Assignment |
+|  5 | Wed, Feb 3 | Thu, Feb 4 | **Finished Quiz 1 (Includes Module 1 & 2)** |
+|  6 | Mon, Feb 8 | Tue, Feb 9 | [Working with JSON Objects](https://www.notion.so/makeschool/Working-with-JSON-Objects-f95e153725f042a69bd06224f116d8b2) |
+|  7 | Wed, Feb 10 | Thu, Feb 11 | Finished Module 3 Assignment |
+|  8 | Mon, Feb 15 | Tue, Feb 16 | **Finished Quiz 2 (Includes Modules 1, 2, & 3)** |
+|  9 | Wed, Feb 17 | Thu, Feb 18  | [Creating and Managing Environment Variables with `dotenv`](https://www.notion.so/makeschool/Creating-and-Managing-Environment-Variables-with-dotenv-ddb6aa5630fe464c884cfc1a75af9c2f) |
+| 10 | Mon, Feb 22 | Tue, Feb 23 | Finished Module 4 Assignment |
+| 11 | Wed, Feb 24 | Thu, Feb 25 | [Connecting a Flask Server to MongoDB Cluster](https://www.notion.so/makeschool/Connecting-a-Flask-Server-to-MongoDB-Cluster-6385c238c38f433f9babc5e85fb67082) |
+| 12 | Mon, Mar 1 | Tue, Mar 2 | Finished Module 5 Assignemnt |
+| 13 | Wed, Mar 3 | Thu, Mar 4 | **Finished Quiz 3 (Cumulative)** |
 
 
 ## Assignments
 
-All assignments are due at **11:59 PM (Midnight)** on the date specified.
+Students will complete assignments at their own pace. 
 
-| Topic | Date | Assignment Due |
-| :--: | :--: | :------------: |
-| 1 | Tue, Oct 27 | Reading 1: Flask for Dummies & Syllabus |
-| 1 | Thu, Oct 29 | [Homework 1: Request/Response](Assignments/01-Request-Response) |
-| 2 | Tue, Nov 3 | Reading 2: Forms & Templates |
-| 2 | Thu, Nov 5 | [Homework 2: Forms & Templates](Assignments/02-Forms-Templates.md) |
-| 3 | Tue, Nov 10 | [**Quiz 1**](Assessments/quiz-1-study-guide.md) - Route Variables, Forms, & Templates |
-| 3 | Thu, Nov 12 | [Homework 3: More Forms](Assignments/03-More-Forms.md) |
-| 4 | Tue, Nov 17 | Reading 3: APIs |
-| 4 | Thu, Nov 19 | [Homework 4: APIs](Assignments/03-APIs.md) |
-| 5 | Tue, Nov 24 | [**Quiz 2**](Assessments/quiz-2-study-guide.md) - APIs
-| 5 | Thu, Dec 3 | [Homework 5: Databases](Assignments/04-Databases.md) |
-| 6 | Thu, Dec 10 | [Homework 6: Testing](Assignments/05-Testing.md) & Project Deployment |
-| 6 | Thu, Dec 10 | [**Quiz 3**](Assessments/quiz-3-study-guide.md) - Databases / Cumulative |
+Assignments get graded upon submission.
+
+##### Assignments should be completed by the recommended date in the above **schedules** section. Students falling behind should connect with the instructor for help staying on pace!
+
+##### Any assignments not complete by the final day of class (Wed, Mar 3 & Thu, Mar 4) will be given a score of **0**.
+
+| Topic | Section A Pacing Date | Section B Pacing Date | Assignment |
+| :--: | :--: | :------------: | :----: |
+| 1 | Wed, Jan 27 | Thu, Jan 28 | [Module 1 Assignment: Request/Response](Assignments/01-Request-Response) |
+| 2 | Wed, Feb 3 | Thu, Feb 4 | [Module 2 Assignment: Forms & Templates](Assignments/02-Forms-Templates.md) |
+| 3 | Mon, Feb 8 | Tue, Feb 9 | [**Quiz 1**](Assessments/quiz-1-study-guide.md) |
+| 4 | Mon, Feb 15 | Tue, Feb 16 | [Module 3 Assignment: More Forms](Assignments/03-More-Forms.md) |
+| 5 | Mon, Feb 22 | Tue, Feb 23 | [Module 4 Assignment: APIs](Assignments/03-APIs.md) |
+| 6 | Mon, Mar 1 | Tue, Mar 2 | [Module 5: Databases](Assignments/04-Databases.md) |
+| 13 | Wed, Mar 3 | Thu, Mar 4 | [**Quiz 2**](Assessments/quiz-2-study-guide.md) |
+
 
 ## Class Recordings
 
-All class recordings will be available [here](https://drive.google.com/drive/u/0/folders/1yTKuHP7UxocjmIRa9sMQ0w9q3TfSe8cc) no later than 24 hours after the class session. For privacy reasons, please do not share the recordings outside of the Make School student body.
+All class recordings will be available [here](https://drive.google.com/drive/folders/1v1sNRXbrF7VmKUxK0U-6V8CgXM4zwpvE?usp=sharing) no later than 24 hours after the class session. For privacy reasons, please do not share the recordings outside of the Make School student body.
 
 ## Evaluation
 
@@ -90,9 +143,9 @@ Each student will be allowed **2 (two) unexcused absences** and **2 (two) excuse
 
 ## Late Assignment Policy
 
-Every assignment submitted by the deadline will be allowed **one resubmission** after receiving feedback. Late assignments will be accepted, but if you submit an assignment past the deadline, you will not be allowed a resubmission.
+Since this class uses a self-pacing model, there will be no late assignments. However, assignments must be turned in by the end of the term or else they will be scored as a 0! 
 
-If you have an extenuating circumstance such as prolonged illness, please reach out to your instructor to request an extension.
+Exceptions will only be made to this rule for extenuating circumstances such as prolonged illness. Please reach out to the instructor if something like this happens to you.
 
 ## Academic Honesty Policy
 
