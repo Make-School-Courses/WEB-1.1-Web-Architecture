@@ -93,10 +93,10 @@ This course has been broken down into 5 modules for students to approach at thei
 |  2 | Mon, Jan 25 | Tue, Jan 26 | Finished Module 1 Assignment  |
 |  3 | Wed, Jan 27 | Thu, Jan 28 | [Conditional Rendering with Templates](https://www.notion.so/makeschool/Conditional-Rendering-with-Templates-1d02a420605b4ecc9e999e9f9acdd03d)|
 |  4 | Mon, Feb 1 | Tue, Feb 2 | Finished Module 2 Assignment |
-|  5 | Wed, Feb 3 | Thu, Feb 4 | **Finished Quiz 1 (Includes Module 1 & 2)** |
+|  5 | Wed, Feb 3 | Thu, Feb 4 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF DAY)** |
 |  6 | Mon, Feb 8 | Tue, Feb 9 | [Working with JSON Objects](https://www.notion.so/makeschool/Working-with-JSON-Objects-f95e153725f042a69bd06224f116d8b2) |
 |  7 | Wed, Feb 10 | Thu, Feb 11 | Finished Module 3 Assignment |
-|  8 | Mon, Feb 15 | Tue, Feb 16 | **Finished Quiz 2 (Includes Modules 1, 2, & 3)** |
+|  8 | Mon, Feb 15 | Tue, Feb 16 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF DAY)** |
 |  9 | Wed, Feb 17 | Thu, Feb 18  | [Creating and Managing Environment Variables with `dotenv`](https://www.notion.so/makeschool/Creating-and-Managing-Environment-Variables-with-dotenv-ddb6aa5630fe464c884cfc1a75af9c2f) |
 | 10 | Mon, Feb 22 | Tue, Feb 23 | Finished Module 4 Assignment |
 | 11 | Wed, Feb 24 | Thu, Feb 25 | [Connecting a Flask Server to MongoDB Cluster](https://www.notion.so/makeschool/Connecting-a-Flask-Server-to-MongoDB-Cluster-6385c238c38f433f9babc5e85fb67082) |
@@ -114,15 +114,19 @@ Assignments get graded upon submission.
 
 ##### Any assignments not complete by the final day of class (Wed, Mar 3 & Thu, Mar 4) will be given a score of **0**.
 
+##### Quizzes have a **HARD DEADLINE** date and will close on the end of the day they've been listed. 
+
+##### Students that have completed all assignments with a score of 3 or higher and earned an 80% or greater on their quizzes **AUTOMATICALLY PASS QUIZ 3** and will not be required to take it! 🤩
+
 | Topic | Section A Pacing Date | Section B Pacing Date | Assignment |
 | :--: | :--: | :------------: | :----: |
-| 1 | Wed, Jan 27 | Thu, Jan 28 | [Module 1 Assignment: Request/Response](Assignments/01-Request-Response) |
-| 2 | Wed, Feb 3 | Thu, Feb 4 | [Module 2 Assignment: Forms & Templates](Assignments/02-Forms-Templates.md) |
-| 3 | Mon, Feb 8 | Tue, Feb 9 | [**Quiz 1**](Assessments/quiz-1-study-guide.md) |
-| 4 | Mon, Feb 15 | Tue, Feb 16 | [Module 3 Assignment: More Forms](Assignments/03-More-Forms.md) |
-| 5 | Mon, Feb 22 | Tue, Feb 23 | [Module 4 Assignment: APIs](Assignments/03-APIs.md) |
-| 6 | Mon, Mar 1 | Tue, Mar 2 | [Module 5: Databases](Assignments/04-Databases.md) |
-| 13 | Wed, Mar 3 | Thu, Mar 4 | [**Quiz 2**](Assessments/quiz-2-study-guide.md) |
+| 1 | Wed, Jan 25 | Thu, Jan 26 | [Module 1 Assignment: Request/Response](Assignments/01-Request-Response) |
+| 2 | Wed, Feb 1 | Thu, Feb 2 | [Module 2 Assignment: Forms & Templates](Assignments/02-Forms-Templates.md) |
+| 3 | Mon, Feb 3 | Tue, Feb 4 | [**Quiz 1**](Assessments/quiz-1-study-guide.md) |
+| 4 | Mon, Feb 10 | Tue, Feb 11 | [Module 3 Assignment: More Forms](Assignments/03-More-Forms.md) |
+| 5 | Wed, Feb 15 | Thu, Feb 16 | [**Quiz 2**](Assessments/quiz-2-study-guide.md) |
+| 6 | Mon, Feb 22 | Tue, Feb 23 | [Module 4 Assignment: APIs](Assignments/03-APIs.md) |
+| 7 | Mon, Mar 1 | Tue, Mar 2 | [Module 5: Databases](Assignments/04-Databases.md) |
 
 
 ## Class Recordings
