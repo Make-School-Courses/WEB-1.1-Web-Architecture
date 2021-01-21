@@ -108,13 +108,15 @@ This course has been broken down into 5 modules for students to approach at thei
 
 Students will complete assignments at their own pace. 
 
-Assignments get graded upon submission.
+Assignments **must be turned in via [Gradescope](https://gradescope.com) for credit!**
 
 ##### Assignments should be completed by the recommended date in the above **schedules** section. Students falling behind should connect with the instructor for help staying on pace!
 
 ##### Any assignments not complete by the final day of class (Wed, Mar 3 & Thu, Mar 4) will be given a score of **0**.
 
-##### Quizzes have a **HARD DEADLINE** date and will close on the end of the day they've been listed. 
+Quizzes can be found on [Gradescope](https://gradescope.com) for credit during the week of their listing.
+
+##### Quizzes have a **HARD DEADLINE** date and will close on the Friday of its listed week. 
 
 ##### Students that have completed all assignments with a score of 3 or higher and earned an 80% or greater on their quizzes **AUTOMATICALLY PASS QUIZ 3** and will not be required to take it! 🤩
 
