@@ -118,6 +118,8 @@ Quizzes can be found on [Gradescope](https://gradescope.com) for credit during t
 
 ##### Quizzes have a **HARD DEADLINE** date and will close on the Friday of its listed week. 
 
+Quizzes can be retaken once, with the final grade being the average of the two final scores. 
+
 ##### Students that have completed all assignments with a score of 3 or higher and earned an 80% or greater on their quizzes **AUTOMATICALLY PASS QUIZ 3** and will not be required to take it! 🤩
 
 | Topic | Section A Pacing Date | Section B Pacing Date | Assignment |
