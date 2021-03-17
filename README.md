@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://www.makeschool.com">
+      <img alt="Make School Logo" src="./Web/logo-icononly.svg" height="110">
+  </a>
+</p>
+
 # WEB 1.1 (Web Architecture)
 
 <span class="refresh-instructions">This syllabus is a living document! Hold down the `SHIFT` key and press `Refresh` to get the latest version.</span>
@@ -80,28 +86,26 @@ This course has been broken down into 5 modules for students to approach at thei
 
 ## Schedule
 
-**Course Dates (Section A):** Monday, January 19 - Wednesday, March 3rd 2020 (7 weeks)
-**Course Dates (Section B):** Tuesday, January 19 - Thursday, March 4th 2020 (7 weeks)
+**Course Dates:** Tuesday, March 30 – Thursday, May 13, 2021 (7 weeks)
 
-**Class Times (Section A):** Monday and Wednesday at 2:30–5:30pm (13 class sessions)
-**Class Times (Section B):** Tuesday and Thursday at 2:30–5:30pm (13 class sessions)
+**Class Times:** Tuesday and Thursday at 2:30–5:15pm (13 class sessions
 
-| Class | Section A Date | Section B Date | Pacing Recommendations (Complete all lessons up to - ) |
-| :---: | :--: | :--: | :-----: |
-| - | Mon, Jan 18 | Tue, Jan 19 | **No Class - MLK Day** |
-|  1 | Wed, Jan 20 | Thu, Jan 21 | [`GET` vs `POST`](https://www.notion.so/makeschool/GET-vs-POST-10a1f44eb63141ebafe614960ba9a310) |
-|  2 | Mon, Jan 25 | Tue, Jan 26 | Finished Module 1 Assignment  |
-|  3 | Wed, Jan 27 | Thu, Jan 28 | [Conditional Rendering with Templates](https://www.notion.so/makeschool/Conditional-Rendering-with-Templates-1d02a420605b4ecc9e999e9f9acdd03d)|
-|  4 | Mon, Feb 1 | Tue, Feb 2 | Finished Module 2 Assignment |
-|  5 | Wed, Feb 3 | Thu, Feb 4 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF WEEK)** |
-|  6 | Mon, Feb 8 | Tue, Feb 9 | [Working with JSON Objects](https://www.notion.so/makeschool/Working-with-JSON-Objects-f95e153725f042a69bd06224f116d8b2) |
-|  7 | Wed, Feb 10 | Thu, Feb 11 | Finished Module 3 Assignment |
-|  8 | Mon, Feb 15 | Tue, Feb 16 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF WEEK)** |
-|  9 | Wed, Feb 17 | Thu, Feb 18  | [Creating and Managing Environment Variables with `dotenv`](https://www.notion.so/makeschool/Creating-and-Managing-Environment-Variables-with-dotenv-ddb6aa5630fe464c884cfc1a75af9c2f) |
-| 10 | Mon, Feb 22 | Tue, Feb 23 | Finished Module 4 Assignment |
-| 11 | Wed, Feb 24 | Thu, Feb 25 | [Connecting a Flask Server to MongoDB Cluster](https://www.notion.so/makeschool/Connecting-a-Flask-Server-to-MongoDB-Cluster-6385c238c38f433f9babc5e85fb67082) |
-| 12 | Mon, Mar 1 | Tue, Mar 2 | Finished Module 5 Assignemnt |
-| 13 | Wed, Mar 3 | Thu, Mar 4 | **Finished Quiz 3 (Cumulative)** |
+| Class | Date | Pacing Recommendations (Complete all lessons up to - ) |
+| :---: | :--: | :-----: |
+| - | Tue, Mar 30 | [`GET` vs `POST`](https://www.notion.so/makeschool/GET-vs-POST-10a1f44eb63141ebafe614960ba9a310)|
+|  1 | Thu, Apr 1 | **No Class - Cesar Chavez** |
+|  2 | Tue, Apr 6 | Finished Module 1 Assignment  |
+|  3 | Thu, Apr 8 | [Conditional Rendering with Templates](https://www.notion.so/makeschool/Conditional-Rendering-with-Templates-1d02a420605b4ecc9e999e9f9acdd03d)|
+|  4 | Tue, Apr 13 | Finished Module 2 Assignment |
+|  5 | Thu, Apr 15 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF WEEK)** |
+|  6 | Tue, Apr 20 | [Working with JSON Objects](https://www.notion.so/makeschool/Working-with-JSON-Objects-f95e153725f042a69bd06224f116d8b2) |
+|  7 | Thu, Apr 22 | Finished Module 3 Assignment |
+|  8 | Tue, Apr 27 | Tue, Feb 16 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF WEEK)** |
+|  9 | Thu, Apr 29  | [Creating and Managing Environment Variables with `dotenv`](https://www.notion.so/makeschool/Creating-and-Managing-Environment-Variables-with-dotenv-ddb6aa5630fe464c884cfc1a75af9c2f) |
+| 10 | Tue, May 4 | Finished Module 4 Assignment |
+| 11 | Thu, May 6  | [Connecting a Flask Server to MongoDB Cluster](https://www.notion.so/makeschool/Connecting-a-Flask-Server-to-MongoDB-Cluster-6385c238c38f433f9babc5e85fb67082) |
+| 12 | Tue, May 11  | Finished Module 5 Assignment |
+| 13 | Thu, May 13  | **Finished Quiz 3 (Cumulative)** |
 
 
 ## Assignments
@@ -122,15 +126,15 @@ Quizzes can be retaken once, with the final grade being the average of the two f
 
 ##### Students that have completed all assignments with a score of 3 or higher and earned an 80% or greater on their quizzes **AUTOMATICALLY PASS QUIZ 3** and will not be required to take it! 🤩
 
-| Topic | Section A Pacing Date | Section B Pacing Date | Assignment |
-| :--: | :--: | :------------: | :----: |
-| 1 | Wed, Jan 25 | Thu, Jan 26 | [Module 1 Assignment: Request/Response](Assignments/01-Request-Response) |
-| 2 | Wed, Feb 1 | Thu, Feb 2 | [Module 2 Assignment: Forms & Templates](Assignments/02-Forms-Templates.md) |
-| 3 | Mon, Feb 3 | Tue, Feb 4 | [**Quiz 1**](Assessments/quiz-1-study-guide.md) |
-| 4 | Mon, Feb 10 | Tue, Feb 11 | [Module 3 Assignment: More Forms](Assignments/03-More-Forms.md) |
-| 5 | Wed, Feb 15 | Thu, Feb 16 | [**Quiz 2**](Assessments/quiz-2-study-guide.md) |
-| 6 | Mon, Feb 22 | Tue, Feb 23 | [Module 4 Assignment: APIs](Assignments/03-APIs.md) |
-| 7 | Mon, Mar 1 | Tue, Mar 2 | [Module 5: Databases](Assignments/04-Databases.md) |
+| Topic | Pacing Date | Assignment |
+| :--: | :------------: | :----: |
+| 1 | Tue, Apr 6 | [Module 1 Assignment: Request/Response](Assignments/01-Request-Response) |
+| 2 | Tue, Apr 13 | [Module 2 Assignment: Forms & Templates](Assignments/02-Forms-Templates.md) |
+| 3 | Thu, Apr 15 | [**Quiz 1**](Assessments/quiz-1-study-guide.md) |
+| 4 | Thu, Apr 22 | [Module 3 Assignment: More Forms](Assignments/03-More-Forms.md) |
+| 5 | Tue, Feb 16 | [**Quiz 2**](Assessments/quiz-2-study-guide.md) |
+| 6 | Tue, May 4 | [Module 4 Assignment: APIs](Assignments/03-APIs.md) |
+| 7 | Tue, May 11 | [Module 5: Databases](Assignments/04-Databases.md) |
 
 
 ## Class Recordings
