@@ -86,9 +86,9 @@ This course has been broken down into 5 modules for students to approach at thei
 
 ## Schedule
 
-**Course Dates:** Tuesday, March 30 – Thursday, May 13, 2021 (7 weeks)
+**Course Dates:** Monday, March 29 – Wednesday, May 12, 2021 (7 weeks)
 
-**Class Times:** Tuesday and Thursday at 2:30–5:15pm (13 class sessions
+**Class Times:** Monday and Wednesday at 2:45–5:30pm (13 class sessions
 
 | Class | Date | Pacing Recommendations (Complete all lessons up to - ) |
 | :---: | :--: | :-----: |
@@ -100,7 +100,7 @@ This course has been broken down into 5 modules for students to approach at thei
 |  5 | Thu, Apr 15 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF WEEK)** |
 |  6 | Tue, Apr 20 | [Working with JSON Objects](https://www.notion.so/makeschool/Working-with-JSON-Objects-f95e153725f042a69bd06224f116d8b2) |
 |  7 | Thu, Apr 22 | Finished Module 3 Assignment |
-|  8 | Tue, Apr 27 | Tue, Feb 16 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF WEEK)** |
+|  8 | Tue, Apr 27 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF WEEK)** |
 |  9 | Thu, Apr 29  | [Creating and Managing Environment Variables with `dotenv`](https://www.notion.so/makeschool/Creating-and-Managing-Environment-Variables-with-dotenv-ddb6aa5630fe464c884cfc1a75af9c2f) |
 | 10 | Tue, May 4 | Finished Module 4 Assignment |
 | 11 | Thu, May 6  | [Connecting a Flask Server to MongoDB Cluster](https://www.notion.so/makeschool/Connecting-a-Flask-Server-to-MongoDB-Cluster-6385c238c38f433f9babc5e85fb67082) |
